@@ -67,3 +67,21 @@ body {
     background-color: var(--primary-color);
     color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+    
+    html {
+        font-size: 80%;
+    }
+
+    .right-nav {
+        margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    
+    html {
+        font-size: 70%;
+    }
+}
