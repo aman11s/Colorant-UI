@@ -3,7 +3,8 @@
 :root {
     --primary-color: #1D4ED8;
     --background-color: #FFFCF9;
-    --black-color: #141414;
+    --black-color: #333333;
+    --hover-black: #000;
     --error-color: #cc3300;
     --warning-color: #ffcc00;
     --sucess-color: #99cc33;
@@ -459,4 +460,8 @@
 
 .ml-6 {
     margin-left: 4rem;
+}
+
+.container-flex {
+    display: flex;
 }

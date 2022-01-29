@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/main.css">
     <title>Colorant UI</title>
 </head>
+
 <body>
-    <nav>
-        <div>
-            <h2>Colorant UI</h2>
+    <nav class="nav-bar container-flex shadow">
+        <div class="left-nav m-2 ml-3">
+            <a class="h2 link black-text-color" href="#"><span class="primary-text-color">Colorant</span> UI</a>
         </div>
-        <ul>
-            <li>Home</li>
-            <li>Docs</li>
-            <li>GitHub</li>
+        <ul class="mr-5 right-nav">
+            <li><a class="link h4 m-2 black-text-color" href="#">Home</a></li>
+            <li><a class="link h4 m-2 black-text-color" href="#">Docs</a></li>
+            <li><a class="link h4 m-2 black-text-color" href="#">GitHub</a></li>
         </ul>
     </nav>
 
     <main>
-        <h1>Colorant UI</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia cum maxime repudiandae at quasi numquam animi ut, eum neque. In.</p>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="black-text-color h1"><span class="primary-text-color">Colorant</span> UI</h1>
+                <p class="medium-text mb-3">
+                    A modern and lightweight CSS library
+                    <br> for building fast and responsive websites.
+                </p>
+                <button class="btn primary-outline-btn">Get Started</button>
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
