@@ -1,0 +1,8 @@
+.aside {
+    grid-area: aside;
+}
+
+.sidebar-link:hover {
+    background-color: var(--bg-hover-color);
+    font-weight: 700;
+}

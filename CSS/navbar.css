@@ -1,0 +1,20 @@
+.nav-bar {
+    align-items: center;
+    grid-area: header;
+    z-index: 3;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+
+.right-nav li {
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+
+    .right-nav {
+        margin-right: 1.5rem;
+    }
+}

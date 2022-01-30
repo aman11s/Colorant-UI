@@ -1,35 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 @import './style.css';
+@import './navbar.css';
+@import './aside.css';
 
 body {
     font-family: 'Nunito Sans', sans-serif;
-    color: var(--black-color);
-}
-
-.nav-bar {
-    align-items: center;
-}
-
-.right-nav {
-    margin-left: auto;
-}
-
-.right-nav li {
-    display: inline-block;
-}
-
-.link {
-    text-decoration: none;
-}
-
-.link:hover {
-    color: var(--hover-black);
+    color: var(--primary-black-color);
 }
 
 .container {
     margin: auto;
     min-height: 100vh;
     width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-black-color);
+}
+
+ul {
+    list-style: none;
 }
 
 .hero-content {
@@ -46,9 +37,7 @@ body {
     color: var(--primary-color);
 }
 
-.black-text-color {
-    color: var(--black-color);
-}
+/* Buttons */
 
 .btn {
     padding: 1rem;
@@ -68,14 +57,32 @@ body {
     color: #fff;
 }
 
+/* Documentation site */
+
+.grid-page-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    'header header header header'
+    'aside main main main'
+    'aside main main main'
+    'footer footer footer footer'
+    ;
+}
+
+.main {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+
 @media screen and (max-width: 600px) {
     
     html {
         font-size: 80%;
-    }
-
-    .right-nav {
-        margin-right: 1.5rem;
     }
 }
 
