@@ -2,6 +2,7 @@
 @import './style.css';
 @import './navbar.css';
 @import './aside.css';
+@import '/components/components.css';
 
 body {
     font-family: 'Nunito Sans', sans-serif;
@@ -21,6 +22,10 @@ a {
 
 ul {
     list-style: none;
+}
+
+hr {
+    color: var(--grey-color);
 }
 
 .hero-content {
@@ -61,7 +66,7 @@ ul {
 
 .grid-page-layout {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas: 
     'header header header header'
     'aside main main main'
@@ -78,6 +83,9 @@ ul {
     grid-area: footer;
 }
 
+.radius-5 {
+    border-radius: 5px;
+}
 
 @media screen and (max-width: 600px) {
     

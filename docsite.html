@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <title>Documentation</title>
 </head>
@@ -23,8 +25,9 @@
         </nav>
 
         <aside class="aisde">
-            <h3 class="h3 px-3 py-2">Components</h3>
-            <ul> 
+            <h3 class="h3 px-3 py-3">Components</h3>
+            <ul>
+                <li class="px-3 py-2 sidebar-link"><a href="">Alerts</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Avatar</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Badge</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Button</a></li>
@@ -34,14 +37,83 @@
             </ul>
         </aside>
 
-        <main class="main">
-           
+        <main class="p-2 main">
+            <!-- Alert Component -->
+            <div class="component">
+                <h1 class="h1">Alerts</h1>
+                <p class="py-2 medium-text">Provide contextual feedback messages for typical user actions with the
+                    handful of available and flexible alert messages.</p>
+                <hr class="my-4">
+                <h2 class="h2">Simple Alert</h2>
+                <p class="py-2 small-text">To use this alert just use class name <span
+                        class="primary-text-color">alert-box</span> and also add class according to alert type - <span
+                        class="primary-text-color">alert-primary, alert-secondary, alert-danger, alert-success,
+                        alert-warning</span>. (e.g <span class="primary-text-color">class="alert-box
+                        alert-primary")</span>.</p>
+
+                <div class="p-2 my-2 radius-5 component-example">
+                    <!-- Primary Alert -->
+                    <div class="alert-box alert-primary">
+                        <strong>Primary!</strong> This is a primary alert!
+                    </div>
+
+                    <!-- Error Alert -->
+                    <div class="alert-box error-alert">
+                        <strong>Error!</strong> This is a error alert!
+                    </div>
+
+                    <!-- Success Alert -->
+                    <div class="alert-box success-alert">
+                        <strong>Success!</strong> This is a success alert!
+                    </div>
+
+                    <!-- Warning Alert -->
+                    <div class="alert-box warning-alert">
+                        <strong>Warning!</strong> This is a warning alert!
+                    </div>
+                </div>
+
+                <div class="code-wrapper">
+                    <pre>
+                        <code class="html code-example">
+                           &lt!-- Primary Alert --&gt
+
+                            &ltdiv class="alert-box alert-primary"&gt
+                                &ltstrong&gtPrimary!&lt/strong&gt This is a primary alert!
+                            &lt/div&gt
+
+                            &lt!-- Error Alert --&gt
+
+                            &ltdiv class="alert-box error-alert"&gt
+                                &ltstrong&gtError!&lt/strong&gt This is a error alert!
+                            &lt/div&gt
+
+                            &lt!-- Success Alert --&gt
+
+                            &ltdiv class="alert-box success-alert"&gt
+                                &ltstrong&gtSuccess!&lt/strong&gt This is a success alert!
+                            &lt/div&gt
+
+                             &lt!-- Warning Alert --&gt
+                             
+                            &ltdiv class="alert-box warning-alert"&gt
+                                &ltstrong&gtWarning!&lt/strong&gt This is a warning alert!
+                            &lt/div&gt
+                        </code>
+                    </pre>
+                </div>
+            </div>
         </main>
 
         <footer class="footer">
-        
+
         </footer>
     </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 
 </body>
 
