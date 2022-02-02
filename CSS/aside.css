@@ -5,4 +5,5 @@
 .sidebar-link:hover {
     background-color: var(--grey-color);
     font-weight: 700;
+    cursor: pointer;
 }

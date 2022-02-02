@@ -1,9 +1,21 @@
-@import './Alert/alert.css';
+@import './alert.css';
+@import './avatar.css';
 
-.code-wrapper {
-    
+.component-example {
+    background-color: var(--light-grey-color);
+}
+
+.section-hr {
+    padding: 1px;
+    background-color: #000;
 }
 
 .code-example {
     border-radius: 5px;
+    max-height: 15rem;
+}
+
+.container-flex-align-center {
+    display: flex;
+    align-items: center;
 }

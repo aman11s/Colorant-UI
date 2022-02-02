@@ -4,6 +4,10 @@
 @import './aside.css';
 @import '/components/components.css';
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Nunito Sans', sans-serif;
     color: var(--primary-black-color);
@@ -13,6 +17,10 @@ body {
     margin: auto;
     min-height: 100vh;
     width: 80%;
+}
+
+.container-flex {
+    display: flex;
 }
 
 a {
@@ -77,6 +85,7 @@ hr {
 
 .main {
     grid-area: main;
+    overflow-x: auto;
 }
 
 .footer {
@@ -91,6 +100,15 @@ hr {
     
     html {
         font-size: 80%;
+    }
+
+    .grid-page-layout {
+        grid-template-areas: 
+        'header header header header'
+        'aside aside aside aside'
+        'main main main main'
+        'footer footer footer footer'
+        ;
     }
 }
 
