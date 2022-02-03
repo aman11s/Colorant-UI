@@ -1,7 +1,6 @@
 .nav-bar {
     align-items: center;
     grid-area: header;
-    z-index: 3;
 }
 
 .right-nav {

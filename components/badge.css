@@ -1,0 +1,40 @@
+.badge-container {
+    position: relative;
+}
+
+.status-badge {
+    position: absolute;
+    bottom: 6px;
+    right: 2px;
+    padding: 8px;
+    border-radius: 50%;
+    max-width: 2px;
+    border: 2px solid #fff;
+}
+
+.badge-container .online {
+    background-color: var(--success-color);   
+}
+
+.badge-container .offline {
+    background-color: #A2A0A0;
+}
+
+.badge-container .dnd {
+    background-color: #d73d0a;
+}
+
+.badge-container-icon {
+    font-size: 3rem;
+}
+
+.icon-badge-number {
+    position: absolute;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 0.6rem;
+    border-radius: 50%;
+    padding: 5px;
+    top: -4px;
+    right: -5px;
+}

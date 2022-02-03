@@ -1,5 +1,13 @@
-.aside {
+.aside-container {
     grid-area: aside;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    box-shadow: 4px 3px 3px var(--light-grey-color);
+}
+
+.sidebar-link > a {
+    display: block;
 }
 
 .sidebar-link:hover {
