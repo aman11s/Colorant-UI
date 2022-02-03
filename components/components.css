@@ -1,5 +1,6 @@
 @import './alert.css';
 @import './avatar.css';
+@import './badge.css';
 
 .component-example {
     background-color: var(--light-grey-color);
@@ -17,5 +18,6 @@
 
 .container-flex-align-center {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
