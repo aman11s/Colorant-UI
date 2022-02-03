@@ -83,12 +83,12 @@ hr {
     ;
 }
 
-.main {
+.main-container {
     grid-area: main;
     overflow-x: auto;
 }
 
-.footer {
+.footer-container {
     grid-area: footer;
 }
 
