@@ -3,6 +3,7 @@
 }
 
 .sidebar-link:hover {
-    background-color: var(--bg-hover-color);
+    background-color: var(--grey-color);
     font-weight: 700;
+    cursor: pointer;
 }

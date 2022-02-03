@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="stylesheet" href="./CSS/main.css">
     <title>Documentation</title>
 </head>
@@ -23,9 +25,10 @@
         </nav>
 
         <aside class="aisde">
-            <h3 class="h3 px-3 py-2">Components</h3>
-            <ul> 
-                <li class="px-3 py-2 sidebar-link"><a href="">Avatar</a></li>
+            <h3 class="h3 px-3 py-3">Components</h3>
+            <ul>
+                <li class="px-3 py-2 sidebar-link"><a href="#alert">Alerts</a></li>
+                <li class="px-3 py-2 sidebar-link"><a href="#avatar">Avatar</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Badge</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Button</a></li>
                 <li class="px-3 py-2 sidebar-link"><a href="">Card</a></li>
@@ -34,14 +37,242 @@
             </ul>
         </aside>
 
-        <main class="main">
-           
+        <main class="my-4 mx-5 main-container">
+            <!-- Alert Component -->
+            <div>
+                <h1 id="alert" class="h1">Alerts</h1>
+                <p class="py-2 medium-text">Provide contextual feedback messages for typical user actions with the
+                    handful of available and flexible alert messages.</p>
+                <hr class="my-4">
+                <h2 class="h2">Simple Alert</h2>
+                <p class="py-2 small-text">To use this alert just use class name <span
+                        class="primary-text-color">alert-box</span> and also add class according to alert type - <span
+                        class="primary-text-color">alert-primary, alert-secondary, alert-danger, alert-success,
+                        alert-warning</span>. (e.g <span class="primary-text-color">class="alert-box
+                        alert-primary")</span>.</p>
+
+                <div class="p-2 my-2 radius-5 component-example">
+                    <!-- Primary Alert -->
+                    <div class="alert-box alert-primary">
+                        <strong>Primary!</strong> This is a primary alert!
+                    </div>
+
+                    <!-- Error Alert -->
+                    <div class="alert-box error-alert">
+                        <strong>Error!</strong> This is a error alert!
+                    </div>
+
+                    <!-- Success Alert -->
+                    <div class="alert-box success-alert">
+                        <strong>Success!</strong> This is a success alert!
+                    </div>
+
+                    <!-- Warning Alert -->
+                    <div class="alert-box warning-alert">
+                        <strong>Warning!</strong> This is a warning alert!
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                           &lt;!-- Primary Alert -->
+
+                            &lt;div class="alert-box alert-primary">
+                                &lt;strong>Primary!&lt;/strong> This is a primary alert!
+                            &lt;/div>
+
+                            &lt;!-- Error Alert -->
+
+                            &lt;div class="alert-box error-alert">
+                                &lt;strong>Error!&lt;/strong> This is a error alert!
+                            &lt;/div>
+
+                            &lt;!-- Success Alert -->
+
+                            &lt;div class="alert-box success-alert">
+                                &lt;strong>Success!&lt;/strong> This is a success alert!
+                            &lt;/div>
+
+                             &lt;!-- Warning Alert -->
+                             
+                            &lt;div class="alert-box warning-alert">
+                                &lt;strong>Warning!&lt;/strong> This is a warning alert!
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <h2 class="h2">Outline Alert</h2>
+                <p class="py-2 small-text">
+                    To use outline alert just use class name <span class="primary-text-color">alert-box</span> and also
+                    add class according to outline alert type - <span class="primary-text-color">alert-outline-primary,
+                        alert-outline-secondary, alert-outline-danger, alert-outline-success,
+                        alert-outline-warning</span>. (e.g <span class="primary-text-color">class="alert-box
+                        alert-outline-primary")</span>.
+                </p>
+
+                <div class="p-2 my-2 radius-5 component-example">
+
+                    <div class="alert-box alert-outline-primary">
+                        <strong>Primary!</strong> This is a primary alert!
+                    </div>
+
+                    <div class="alert-box error-outline-alert">
+                        <strong>Error!</strong> This is a error alert!
+                    </div>
+
+                    <div class="alert-box success-outline-alert">
+                        <strong>Success!</strong> This is a success alert!
+                    </div>
+
+                    <div class="alert-box warning-outline-alert">
+                        <strong>Warning!</strong> This is a warning alert!
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;!-- Primary outline Alert -->
+
+                            &lt;div class="alert-box alert-outline-primary">
+                                &lt;strong>Primary!&lt;/strong> This is a primary alert!
+                            &lt;/div>
+
+                            &lt;!-- Error outline Alert -->
+
+                            &lt;div class="alert-box error-outline-alert">
+                                &lt;strong>Error!&lt;/strong> This is a error alert!
+                            &lt;/div>
+
+                            &lt;!-- Success outline Alert -->
+
+                            &lt;div class="alert-box success-outline-alert">
+                                &lt;strong>Success!&lt;/strong> This is a success alert!
+                            &lt;/div>
+
+                            &lt;!-- Warning outline Alert -->
+                             
+                            &lt;div class="alert-box warning-outline-alert">
+                                &lt;strong>Warning!&lt;/strong> This is a warning alert!
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Avatar Component -->
+
+            <div>
+                <h1 id="avatar" class="h1">Avatar</h1>
+                <p class="py-2 medium-text">Avatar can be used to show user's profile picture on profile information
+                    page,
+                    on navigation bar, in blogs grid items.</p>
+
+                <hr class="my-4">
+
+                <h2 class="h2">Image Avatar</h2>
+                <p class="py-2 small-text">
+                    Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class
+                    <span class="primary-text-color">avatar</span> in img tag and for size add class according to size
+                    <span class="primary-text-color">avatar-lg-size, avatar-md-size, avatar-sm-size,
+                        avatar-xs-size</span>
+                    (e.g. <span class="primary-text-color">class="avatar avatar-lg-size"</span>).
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 component-example">
+                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-lg-size mx-2">
+                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-md-size mx-2">
+                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-sm-size mx-2">
+                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-xs-size mx-2">
+                </div>
+
+                <div>
+                    <pre>
+                    <code class="html code-example">
+
+                        &lt;!-- Avatar large size -->
+
+                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-lg-size">
+
+                        &lt;!-- Avatar medium size -->
+
+                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-md-size">
+
+                        &lt;!-- Avatar small size -->
+
+                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-sm-size">
+
+                        &lt;!-- Avatar extra small size -->
+
+                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-xs-size">
+                    </code>
+                </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <h2 class="h2">Text Avatar</h2>
+                <p class="py-2 small-text">
+                    You can use initial letters of user in Avatar as well. You need to include class <span
+                        class="primary-text-color">avatar-text</span> along with avatar and size class. (e.g. <span
+                        class="primary-text-color">class="avatar avatar-lg-size avatar-text</span>")
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center">
+
+                    <div class="avatar avatar-lg-size avatar-text mx-2" role="img">AM</div>
+
+                    <div class="avatar avatar-md-size avatar-text mx-2" role="img">AM</div>
+
+                    <div class="avatar avatar-sm-size avatar-text mx-2" role="img">AM</div>
+
+                    <div class="avatar avatar-xs-size avatar-text mx-2" role="img">AM</div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;!-- Large text avatar -->
+
+                            &lt;div class="avatar avatar-lg-size avatar-text" role="img">AM&lt;/div>
+
+                            &lt;!-- Medium text avatar -->
+
+                            &lt;div class="avatar avatar-md-size avatar-text" role="img">AM&lt;/div>
+
+                            &lt;!-- Small text avatar -->
+
+                            &lt;div class="avatar avatar-sm-size avatar-text" role="img">AM&lt;/div>
+
+                            &lt;!-- Extra small text avatar -->
+
+                            &lt;div class="avatar avatar-xs-size avatar-text" role="img">AM&lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+
+            <hr class="my-4 section-hr">
+
+
         </main>
 
-        <footer class="footer">
-        
+        <footer class="footer-container">
+
         </footer>
     </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
 
 </body>
 
