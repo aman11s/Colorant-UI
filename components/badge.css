@@ -21,7 +21,7 @@
 }
 
 .badge-container .dnd {
-    background-color: #d73d0a;
+    background-color: var(--error-color);
 }
 
 .badge-container-icon {
