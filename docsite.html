@@ -31,7 +31,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#alert">Alerts</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="">Button</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="">Card</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="">Image</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="">Input</a></li>
@@ -177,6 +177,8 @@
 
                 <hr class="my-4">
 
+                <!-- Image Avatar -->
+
                 <h2 class="h2">Image Avatar</h2>
                 <p class="py-2 small-text">
                     Avatar is available in 4 different sizes. You can use image in Avatar. You need to include class
@@ -218,6 +220,8 @@
 
                 <hr class="my-4">
 
+                <!-- Text Avatar -->
+
                 <h2 class="h2">Text Avatar</h2>
                 <p class="py-2 small-text">
                     You can use initial letters of user in Avatar as well. You need to include class <span
@@ -228,19 +232,19 @@
                 <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center">
 
                     <div>
-                        <div class="avatar avatar-lg-size avatar-text m-2" role="img">AM</div>
+                        <div class="avatar avatar-lg-size avatar-text" role="img">AM</div>
                     </div>
 
                     <div>
-                        <div class="avatar avatar-md-size avatar-text m-2" role="img">AM</div>
+                        <div class="avatar avatar-md-size avatar-text" role="img">AM</div>
                     </div>
 
                     <div>
-                        <div class="avatar avatar-sm-size avatar-text m-2" role="img">AM</div>
+                        <div class="avatar avatar-sm-size avatar-text" role="img">AM</div>
                     </div>
 
                     <div>
-                        <div class="avatar avatar-xs-size avatar-text m-2" role="img">AM</div>
+                        <div class="avatar avatar-xs-size avatar-text" role="img">AM</div>
                     </div>
                 </div>
 
@@ -273,25 +277,27 @@
 
             <div>
                 <h1 class="h1" id="badge">Badge</h1>
-                <p class="py-2 medium-text">Badges are being used to display a notification count or status information.</p>
+                <p class="py-2 medium-text">Badges are being used to display a notification count or status information.
+                </p>
 
                 <hr class="my-4">
 
                 <h2 class="h2">Avatar Badge</h2>
-                <p class="py-2 small-text">You can use avatar badge to show the current status of a user. (e.g. <span class="primary-text-color">online, offline, do not disturb</span>)</p>
+                <p class="py-2 small-text">You can use avatar badge to show the current status of a user. (e.g. <span
+                        class="primary-text-color">online, offline, do not disturb</span>)</p>
 
-                <div class="p-2 px-6 my-2 radius-5 component-example container-flex">
-                    <div class="badge-container mx-2">
+                <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center">
+                    <div class="badge-container">
                         <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge online"></div>
                     </div>
 
-                    <div class="badge-container mx-2">
+                    <div class="badge-container">
                         <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge offline"></div>
                     </div>
-                    
-                    <div class="badge-container mx-2">
+
+                    <div class="badge-container">
                         <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge dnd"></div>
                     </div>
@@ -330,7 +336,7 @@
                         <i class='badge-container-icon bx bxs-cart'></i>
                         <div class="icon-badge-number">20</div>
                     </div>
-                    
+
                     <div class="badge-container mx-4">
                         <i class='badge-container-icon bx bxs-envelope'></i>
                         <div class="icon-badge-number dnd">10</div>
@@ -351,6 +357,169 @@
                                 &lt;i class='badge-container-icon bx bxs-envelope'>&lt;/i>
                                 &lt;div class="icon-badge-number dnd">10&lt;/div>
                             &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Button Component -->
+
+            <div>
+                <h1 id="button" class="h1">Button</h1>
+                <p class="py-2 medium-text">
+                    Buttons are also called as call to action. Buttons allow users to take actions, and make choices,
+                    with a single tap.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Primary Button -->
+
+                <h2 class="h2">Primary Button</h2>
+                <p class="py-2 small-text">
+                    Whenever you want your user to click on a link or button, use primary style buttons.
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 container-flex-align-center component-example">
+                    <button class="btn primary-solid-btn">Primary-solid</button>
+
+                    <button class="btn primary-outline-btn">Primary-outline</button>
+
+                    <button class="btn primary-error-btn">Error</button>
+
+                    <button class="btn primary-success-btn">Success</button>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;button class="btn primary-solid-btn">Primary-solid&lt;/button>
+
+                            &lt;button class="btn primary-outline-btn">Primary-outline&lt;/button>
+
+                            &lt;button class="btn primary-error-btn">Error&lt;/button>
+                            
+                            &lt;button class="btn primary-success-btn">Success&lt;/button>
+                            
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Link Button -->
+
+                <h2 class="h2">Link Button</h2>
+                <p class="py-2 small-text">
+                    You can attach a link action like button just by adding the link in the <span
+                        class="primary-text-color">href</span> attribute of an anchor tag.
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 container-flex-align-center component-example">
+                    <a onclick="return false" href="#">
+                        <button class="btn primary-solid-btn">Link</button>
+                    </a>
+                    <a onclick="return false" href="#">
+                        <button class="btn primary-outline-btn">Outline Link</button>
+                    </a>
+                    <a onclick="return false" href="#" class="primary-link">Primary Link</a>
+                    <a onclick="return false" href="#" class="secondary-link">Secondary Link</a>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;a href="#">
+                                &lt;button class="btn primary-solid-btn">Link&lt;/button>
+                            &lt;/a>
+
+                            &lt;a href="#">
+                                &lt;button class="btn primary-outline-btn">Outline Link&lt;/button>
+                            &lt;/a>
+
+                            &lt;a href="#" class="primary-link">Primary Link&lt;/a>
+
+                            &lt;a href="#" class="secondary-link">Secondary Link&lt;/a>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Icon Button -->
+
+                <h2 class="h2">Icon Button</h2>
+                <p class="py-2 small-text">
+                    You can create icon button just by adding <span class="primary-text-color">"btn-icon"</span> as
+                    child
+                    class name and <span class="primary-text-color">"primary-btn-text-icon"</span> to parent class name.
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 container-flex-align-center component-example">
+                    <button class="btn primary-outline-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-cart'></i>Add to cart
+                    </button>
+
+                    <button class="btn primary-solid-btn primary-btn-text-icon">
+                        <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                    </button>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;button class="mx-2 btn primary-outline-btn primary-btn-text-icon">
+                                &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                            &lt;/button>
+        
+                            &lt;button class="mx-2 btn primary-solid-btn primary-btn-text-icon">
+                                &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                            &lt;/button>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Floating Action Button -->
+
+                <h2 class="h2">Floating Action Button</h2>
+                <p class="py-2 small-text">
+                    A floating action button (FAB) performs the primary, or most common, action on a screen. It appears
+                    in front of all screen content, typically as a circular shape with an icon in its center.
+                    You can use FAB by adding <span class="primary-text-color">"btn-fab"</span> as child class name inside anchor parent tag.
+                </p>
+
+                <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center">
+                    <a onclick="return false" href="#">
+                        <i class='btn-fab bx bx-up-arrow-alt'></i>
+                    </a>
+                    
+                    <a onclick="return false" href="#">
+                        <span class="btn-fab">+</span>
+                    </a>
+                    
+                    <a onclick="return false" href="#">
+                        <span class="btn-fab">-</span>
+                    </a>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;a href="#">
+                                &lt;i class='btn-fab bx bx-up-arrow-alt'>&lt;/i>
+                            &lt;/a>
+                            
+                            &lt;a href="#">
+                                &lt;span class="btn-fab">+&lt;/span>
+                            &lt;/a>
+                            
+                            &lt;a href="#">
+                                &lt;span class="btn-fab">-&lt;/span>
+                            &lt;/a>
                         </code>
                     </pre>
                 </div>
