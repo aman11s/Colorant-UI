@@ -1,5 +1,5 @@
 .card {
-    width: 20rem;
+    width: 22rem;
     background-color: #fff;
     padding: 1rem;
     border-radius: 5px;
@@ -10,6 +10,7 @@
     align-items: center;
     border-bottom: 2px solid var(--light-grey-color);
     padding-bottom: 0.5rem;
+    position: relative;
 }
 
 .close {
@@ -23,4 +24,39 @@
 
 .card-body {
     padding-top: 0.5rem;
+}
+
+.card-img {
+    max-width: 20rem;
+    border-radius: 2px;
+}
+
+.card-wishlist-icon {
+    position: absolute;
+    font-size: 2rem;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.card-wishlist-icon:hover {
+    color: #e8415f;
+}
+
+.item-price {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.card-discription {
+    padding-top: 5px;
+}
+
+.card-footer {
+    padding-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
 }
