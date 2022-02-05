@@ -1,0 +1,19 @@
+.card {
+    width: 20rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.card-header {
+    border-bottom: 2px solid var(--light-grey-color);
+    padding-bottom: 0.5rem;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-body {
+    padding-top: 0.5rem;
+}
