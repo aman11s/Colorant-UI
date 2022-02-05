@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="stylesheet" href="./CSS/main.css">
@@ -544,7 +543,7 @@
                     Use text card component in places where you want to show a title and description related to that title.
                 </p>
 
-                <div class="p-2 px-6 my-2 radius-5 component-example container-flex-center">
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
                     <div class="card">
                         <div class="card-header">
                             <div class="card-title">Card Title</div>
@@ -561,6 +560,40 @@
                             &lt;div class="card">
                                 &lt;div class="card-header">
                                     &lt;div class="card-title">Card Title&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Card with dismiss -->
+
+                <h2 class="h2 mb-4">Card with dismiss</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Card Title</div>
+                            <i class='close bx bx-x'></i>
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-title">Card Title&lt;/div>
+                                    &lt;i class='close bx bx-x'>&lt;/i>
                                 &lt;/div>
                                 &lt;div class="card-body">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?

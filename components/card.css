@@ -6,8 +6,15 @@
 }
 
 .card-header {
+    display: flex;
+    align-items: center;
     border-bottom: 2px solid var(--light-grey-color);
     padding-bottom: 0.5rem;
+}
+
+.close {
+    margin-left: auto;
+    font-size: 1.4rem;
 }
 
 .card-title {
