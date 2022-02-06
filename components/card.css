@@ -1,5 +1,5 @@
 .card {
-    width: 22rem;
+    width: 17rem;
     background-color: #fff;
     padding: 1rem;
     border-radius: 5px;
@@ -10,7 +10,6 @@
     align-items: center;
     border-bottom: 2px solid var(--light-grey-color);
     padding-bottom: 0.5rem;
-    position: relative;
 }
 
 .close {
@@ -26,8 +25,12 @@
     padding-top: 0.5rem;
 }
 
+.card-img-container {
+    position: relative;
+}
+
 .card-img {
-    max-width: 20rem;
+    width: 100%;
     border-radius: 2px;
 }
 
@@ -57,6 +60,32 @@
 
 .card-footer {
     padding-top: 0.5rem;
+}
+
+.card-btn {
+    width: 100%;
+    margin: 0 auto 0.5rem;
+}
+
+.card-horizontal {
     display: flex;
-    gap: 1rem;
+    width: 30rem;
+}
+
+.card-horizontal .card-img-container {
+    width: 50%;
+}
+
+.card-horizontal .card-wishlist-icon {
+    font-size: 1.5rem;
+}
+
+.card-horizontal-details {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.card-horizontal-button {
+    margin-top: auto;
 }
