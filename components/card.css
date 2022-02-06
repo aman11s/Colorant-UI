@@ -103,3 +103,18 @@
     font-size: 0.8rem;
     letter-spacing: 3px;
 }
+
+.overlay-container {
+    opacity: 0.3;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+    background-color: #f9f9f9;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: red;
+    border-radius: 5px;
+}
