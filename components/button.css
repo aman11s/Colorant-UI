@@ -69,6 +69,8 @@
 .primary-btn-text-icon {
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 10rem;
 }
 
 .btn-icon {

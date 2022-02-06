@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="stylesheet" href="./CSS/main.css">
@@ -32,7 +31,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="">Card</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="">Image</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="">Input</a></li>
             </ul>
@@ -470,11 +469,11 @@
                 <div>
                     <pre>
                         <code class="html code-example">
-                            &lt;button class="mx-2 btn primary-outline-btn primary-btn-text-icon">
+                            &lt;button class="btn primary-outline-btn primary-btn-text-icon">
                                 &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
                             &lt;/button>
         
-                            &lt;button class="mx-2 btn primary-solid-btn primary-btn-text-icon">
+                            &lt;button class="btn primary-solid-btn primary-btn-text-icon">
                                 &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
                             &lt;/button>
                         </code>
@@ -526,6 +525,427 @@
             </div>
 
             <hr class="my-4 section-hr">
+
+            <!-- Card Component -->
+
+            <div>
+                <h1 id="card" class="h1">Card</h1>
+                <p class="py-2 medium-text">
+                    Cards are used to show user related data collectively, like product details.
+                </p>
+                
+                <hr class="my-4">
+
+                <!-- Text only card -->
+
+                <h2 class="h2">Text only card</h2>
+                <p class="py-2 small-text">
+                    Use text card component in places where you want to show a title and description related to that title.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Card Title</div>
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-title">Card Title&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Card with dismiss -->
+
+                <h2 class="h2 mb-4">Card with dismiss</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="card-title">Card Title</div>
+                            <i class='close bx bx-x'></i>
+                        </div>
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-title">Card Title&lt;/div>
+                                    &lt;i class='close bx bx-x'>&lt;/i>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat deleniti ab hic ipsa quasi harum?
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Vertical card -->
+
+                <h2 class="h2 my-4">Vertical card</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card mx-4">
+                        <div class="card-header">
+                            <div class="card-img-container">
+                                <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                <i class='card-wishlist-icon bx bx-heart'></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="item-price">Rs. 5,999</div>
+                            <div class="card-description">Men's grey shacket</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-cart'></i>Add to cart
+                            </button>
+        
+                            <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="card mx-4">
+                        <div class="card-header">
+                            <div class="card-img-container">
+                                <img class="card-img" src="./components/Images/card-woman-img.jpeg" alt="men-shacket">
+                                <i class='card-wishlist-icon bx bx-heart'></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="item-price">Rs. 1,999</div>
+                            <div class="card-description">Women's black top</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-cart'></i>Add to cart
+                            </button>
+        
+                            <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-img-container">
+                                        &lt;img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                        &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                    &lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    &lt;div class="item-price">Rs. 5,999&lt;/div>
+                                    &lt;div class="card-description">Men's grey shacket&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-footer">
+                                    &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                    &lt;/button>
+                
+                                    &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                    &lt;/button>
+                                &lt;/div>
+                            &lt;/div>
+        
+                            &lt;div class="card">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-img-container">
+                                        &lt;img class="card-img" src="./components/Images/card-woman-img.jpeg" alt="men-shacket">
+                                        &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                    &lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    &lt;div class="item-price">Rs. 1,999&lt;/div>
+                                    &lt;div class="card-description">Women's black top&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-footer">
+                                    &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                    &lt;/button>
+                
+                                    &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                    &lt;/button>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Horizontal card -->
+
+                <h2 class="h2 my-4">Horizontal card</h2>
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card card-horizontal">
+                        <div class="card-img-container">
+                            <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                            <i class='card-wishlist-icon bx bx-heart'></i>
+                        </div>
+                        <div class="card-horizontal-details">
+                            <div class="item-price">Rs. 5,999</div>
+                            <div class="card-description">Men's grey shacket</div>
+                            <div class="card-horizontal-button">
+                                <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                    <i class='btn-icon bx bxs-cart'></i>Add to cart
+                                </button>
+            
+                                <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                    <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card card-horizontal">
+                                &lt;div class="card-img-container">
+                                    &lt;img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                    &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                &lt;/div>
+                                &lt;div class="card-horizontal-details">
+                                    &lt;div class="item-price">Rs. 5,999&lt;/div>
+                                    &lt;div class="card-description">Men's grey shacket&lt;/div>
+                                    &lt;div class="card-horizontal-button">
+                                        &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                            &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                        &lt;/button>
+                    
+                                        &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                            &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                        &lt;/button>
+                                    &lt;/div>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Card with badge -->
+
+                <h2 class="h2 my-4">Card with badge</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+
+                    <div class="card">
+                        <span class="card-badge">TRENDING</span>
+                        <div class="card-header">
+                            <div class="card-img-container">
+                                <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                <i class='card-wishlist-icon bx bx-heart'></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="item-price">Rs. 5,999</div>
+                            <div class="card-description">Men's grey shacket</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-cart'></i>Add to cart
+                            </button>
+        
+                            <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;span class="card-badge">TRENDING&lt;/span>
+                                &lt;div class="card-header">
+                                    &lt;div class="card-img-container">
+                                        &lt;img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                        &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                    &lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    &lt;div class="item-price">Rs. 5,999&lt;/div>
+                                    &lt;div class="card-description">Men's grey shacket&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-footer">
+                                    &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                    &lt;/button>
+
+                                    &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                    &lt;/button>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Card with text overlay -->
+
+                <h2 class="h2 my-4">Card with text overlay</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+
+                    <div class="card">
+                        <div class="overlay-container">
+                            <div class="card-header">
+                                <div class="card-img-container">
+                                    <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                    <i class='card-wishlist-icon bx bx-heart'></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <div class="item-price">Rs. 5,999</div>
+                                <div class="card-description">Men's grey shacket</div>
+                            </div>
+                            <div class="card-footer">
+                                <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                    <i class='btn-icon bx bxs-cart'></i>Add to cart
+                                </button>
+            
+                                <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                    <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="overlay-text">OUT OF STOCK</div>
+                    </div>
+
+                </div> 
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card">
+                                &lt;div class="overlay-container">
+                                    &lt;div class="card-header">
+                                        &lt;div class="card-img-container">
+                                            &lt;img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                            &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                        &lt;/div>
+                                    &lt;/div>
+                                    &lt;div class="card-body">
+                                        &lt;div class="item-price">Rs. 5,999&lt;/div>
+                                        &lt;div class="card-description">Men's grey shacket&lt;/div>
+                                    &lt;/div>
+                                    &lt;div class="card-footer">
+                                        &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                            &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                        &lt;/button>
+                    
+                                        &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                            &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                        &lt;/button>
+                                    &lt;/div>
+                                &lt;/div>
+                                &lt;div class="overlay-text">OUT OF STOCK&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Card with shadow -->
+
+                <h2 class="h2 my-4">Card with shadow</h2>
+
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
+                    <div class="card shadow">
+                        <div class="card-header">
+                            <div class="card-img-container">
+                                <img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                <i class='card-wishlist-icon bx bx-heart'></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="item-price">Rs. 5,999</div>
+                            <div class="card-description">Men's grey shacket</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-cart'></i>Add to cart
+                            </button>
+        
+                            <button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                <i class='btn-icon bx bxs-bolt'></i>Buy Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="card shadow">
+                                &lt;div class="card-header">
+                                    &lt;div class="card-img-container">
+                                        &lt;img class="card-img" src="./components/Images/card-man-img.jpeg" alt="men-shacket">
+                                        &lt;i class='card-wishlist-icon bx bx-heart'>&lt;/i>
+                                    &lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-body">
+                                    &lt;div class="item-price">Rs. 5,999&lt;/div>
+                                    &lt;div class="card-description">Men's grey shacket&lt;/div>
+                                &lt;/div>
+                                &lt;div class="card-footer">
+                                    &lt;button class="btn card-btn primary-outline-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-cart'>&lt;/i>Add to cart
+                                    &lt;/button>
+                
+                                    &lt;button class="btn card-btn primary-solid-btn primary-btn-text-icon">
+                                        &lt;i class='btn-icon bx bxs-bolt'>&lt;/i>Buy Now
+                                    &lt;/button>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+            </div>
+
 
         </main>
 
