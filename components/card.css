@@ -3,6 +3,7 @@
     background-color: #fff;
     padding: 1rem;
     border-radius: 5px;
+    position: relative;
 }
 
 .card-header {
@@ -88,4 +89,17 @@
 
 .card-horizontal-button {
     margin-top: auto;
+}
+
+.card-badge {
+    background-color: #e8415f;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    border-bottom-right-radius: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
 }
