@@ -1,0 +1,73 @@
+.h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+}
+
+.h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 900;
+}
+
+.h3 {
+    font-size: 1.75rem;
+    line-height: 2rem;
+    font-weight: 900;
+}
+
+.h4 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 900;
+}
+
+.h5 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-weight: 900;
+}
+
+.h6 {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 900;
+}
+
+.x-large-text {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.large-text {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.medium-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.small-text {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+.x-small-text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.xx-small-text {
+    font-size: 0.5rem;
+    line-height: 1rem;   
+}
+
+.grey-text-color {
+    color: #767676;
+}
+
+.text-center {
+    text-align: center;
+}

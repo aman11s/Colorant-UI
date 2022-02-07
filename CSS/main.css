@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
 @import url('https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css');
-@import './style.css';
+@import './utility-classes.css';
 @import './navbar.css';
 @import './aside.css';
 @import '/components/components.css';
