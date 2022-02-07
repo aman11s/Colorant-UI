@@ -5,12 +5,12 @@
 }
 
 .alert-primary {
-    background-color: #6A91FF;
+    background-color: var(--light-blue-color);
     color: #000;
 }
 
 .error-alert {
-    background-color: #ff602b;
+    background-color: var(--light-red-color);
     color: #000;
 }
 

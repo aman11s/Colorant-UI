@@ -33,7 +33,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="">Input</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
             </ul>
         </aside>
 
@@ -970,10 +970,12 @@
 
                 <h2 class="h2">Responsive Image</h2>
                 <p class="py-2 small-text">
-                    You can add class <span class="primary-text-color">img-responsive</span> to make your image fit the width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to change the aspect ratio, you will have to crop the image.
+                    You can add class <span class="primary-text-color">img-responsive</span> to make your image fit the
+                    width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to
+                    change the aspect ratio, you will have to crop the image.
                 </p>
 
-                <div class="p-2 my-2 radius-5 component-example">
+                <div class="p-4 my-2 radius-5 component-example">
                     <img src="./components/Images/fruits.jpeg" alt="fruits" class="img-responsive">
                 </div>
 
@@ -990,13 +992,116 @@
                 <!-- Round Image -->
 
                 <h2 class="h2">Round Image</h2>
-                <p class="py-2 small-text">You can add class <span class="primary-text-color">img-round</span> to make your image round shaped.</p>
+                <p class="py-2 small-text">
+                    You can add class <span class="primary-text-color">img-round</span> to make your image round shaped.
+                </p>
 
-                <div class="p-2 my-2 radius-5 component-example container-flex-center">
+                <div class="p-4 my-2 radius-5 component-example container-flex-center">
                     <img src="./components/Images/memoji.png" alt="memoji" class="img-round">
                 </div>
 
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;img src="./components/Images/memoji.png" alt="memoji" class="img-round">
+                        </code>
+                    </pre>
+                </div>
+
             </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Input component -->
+
+            <div>
+                <h1 class="h1" id="input">Input</h1>
+                <p class="py-2 medium-text">
+                    Inputs are necessary for user interaction with the website. Inputs are used to take information from
+                    the user, and then save the data to the server, accordingly.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Textbox input -->
+
+                <h2 class="h2">Textbox basic input</h2>
+                <p class="py-2 small-text">
+                    Basic inputs are the heart of user interaction when we need to get input from the user.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <form>
+                        <label for="username-input">Username :</label>
+                        <input type="text" id="username-input" class="input-box input-default" placeholder="Enter your username">
+
+                        <label for="user-password">Password : </label>
+                        <input type="text" id="user-password" class="input-box input-default" placeholder="Enter your password">
+                    </form>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;form>
+                                &lt;label for="username-input">Username :&lt;/label>
+                                &lt;input type="text" id="username-input" class="input-box input-default" placeholder="Enter your username">
+        
+                                &lt;label for="user-password">Password : &lt;/label>
+                                &lt;input type="text" id="user-password" class="input-box input-default" placeholder="Enter your password">
+                            &lt;/form>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Input with validations -->
+
+                <h2 class="h2">Input with validations</h2>
+                
+                <div class="p-4 my-4 radius-5 component-example">
+
+                    <label for="default">Default</label>
+                    <input type="text" class="input-box input-default" placeholder="Default state">
+
+                    <label for="success">Success</label>
+                    <input type="text" id="success" class="input-box input-success" placeholder="Success state">
+
+                    <label for="error">Error</label>
+                    <input type="text" id="error" class="input-box input-error" placeholder="Error state">
+
+                    <label for="warning">Warning</label>
+                    <input type="text" id="warning" class="input-box input-warning" placeholder="Warning state">
+
+                    <label for="disabled">Disable</label>
+                    <input type="text" id="disabled" disabled class="input-box input-disabled" placeholder="Disabled state">
+
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;label for="default">Default&lt;/label>
+                            &lt;input type="text" class="input-box input-default" placeholder="Default state">
+
+                            &lt;label for="success">Success&lt;/label>
+                            &lt;input type="text" id="success" class="input-box input-success" placeholder="Success state">
+
+                            &lt;label for="error">Error&lt;/label>
+                            &lt;input type="text" id="error" class="input-box input-error" placeholder="Error state">
+
+                            &lt;label for="warning">Warning&lt;/label>
+                            &lt;input type="text" id="warning" class="input-box input-warning" placeholder="Warning state">
+
+                            &lt;label for="disabled">Disable&lt;/label>
+                            &lt;input type="text" id="disabled" disabled class="input-box input-disabled" placeholder="Disabled state">
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
 
 
         </main>

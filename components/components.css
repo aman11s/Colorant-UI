@@ -4,6 +4,7 @@
 @import './button.css';
 @import './card.css';
 @import './img.css';
+@import './input.css';
 
 .component-example {
     background-color: var(--light-grey-color);
