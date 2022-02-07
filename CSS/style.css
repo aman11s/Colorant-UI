@@ -4,13 +4,17 @@
 
     /* Colors */
     --primary-color: #1D4ED8;
+    --light-blue-color: #6A91FF;
     --background-color: #FFFCF9;
     --primary-black-color: #333333;
     --grey-color: #D7D7D7;
     --light-grey-color: #F0F0F0;
-    --error-color: #f94a10;
+    --error-color: #ff3f00;
+    --light-red-color: #fe7345;
     --warning-color: #ffcc00;
+    --dark-yellow-color: #e6b902;
     --success-color: #1eca0f;
+    --dark-green-color: #049804;
 }
 
 /* Reset default */

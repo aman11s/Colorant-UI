@@ -1,0 +1,48 @@
+.input-box {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border-radius: 2px;
+    outline: none;
+}
+
+.input-default {
+    border: 2px solid var(--light-blue-color);
+}
+
+.input-default:focus {
+    border-color: var(--primary-color);
+}
+
+.input-success {
+    border: 2px solid var(--success-color);
+}
+
+.input-success:focus {
+    border-color: var(--dark-green-color);
+}
+
+.input-error {
+    border: 2px solid var(--light-red-color);
+}
+
+.input-error:focus {
+    border-color: var(--error-color);
+}
+
+.input-warning {
+    border: 2px solid var(--warning-color);
+}
+
+.input-warning:focus {
+    border-color: var(--dark-yellow-color);
+}
+
+.input-disabled {
+    cursor: not-allowed;
+    border: 2px solid #B3C3F2;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+}
