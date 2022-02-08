@@ -34,6 +34,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
             </ul>
         </aside>
 
@@ -1033,10 +1034,12 @@
                 <div class="p-4 my-2 radius-5 component-example">
                     <form>
                         <label for="username-input">Username :</label>
-                        <input type="text" id="username-input" class="input-box input-default" placeholder="Enter your username">
+                        <input type="text" id="username-input" class="input-box input-default"
+                            placeholder="Enter your username">
 
                         <label for="user-password">Password : </label>
-                        <input type="text" id="user-password" class="input-box input-default" placeholder="Enter your password">
+                        <input type="text" id="user-password" class="input-box input-default"
+                            placeholder="Enter your password">
                     </form>
                 </div>
 
@@ -1059,7 +1062,7 @@
                 <!-- Input with validations -->
 
                 <h2 class="h2">Input with validations</h2>
-                
+
                 <div class="p-4 my-4 radius-5 component-example">
 
                     <label for="default">Default</label>
@@ -1075,7 +1078,8 @@
                     <input type="text" id="warning" class="input-box input-warning" placeholder="Warning state">
 
                     <label for="disabled">Disable</label>
-                    <input type="text" id="disabled" disabled class="input-box input-disabled" placeholder="Disabled state">
+                    <input type="text" id="disabled" disabled class="input-box input-disabled"
+                        placeholder="Disabled state">
 
                 </div>
 
@@ -1096,6 +1100,125 @@
 
                             &lt;label for="disabled">Disable&lt;/label>
                             &lt;input type="text" id="disabled" disabled class="input-box input-disabled" placeholder="Disabled state">
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Typography -->
+
+            <div>
+                <h1 class="h1" id="typography">Typography</h1>
+                <p class="py-2 medium-text">Check out below text utilities.</p>
+
+                <hr class="my-4">
+
+                <!-- Headings -->
+                <h2 class="h2 mt-4">Headings</h2>
+                <p class="py-2 small-text">
+                    For heading you can use h1, h2, h3, h4, h5, h6 elements.
+                    The same font-styling is present for class names 
+                    <span class="primary-text-color">h1, h2, h3, h4, h5, h6</span>
+                    class. You can add one of these classes to style the text.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <h1 class="h1 p-2">H1 - Heading</h1>
+                    <h2 class="h2 p-2">H2 - Heading</h2>
+                    <h3 class="h3 p-2">H3 - Heading</h3>
+                    <h4 class="h4 p-2">H4 - Heading</h4>
+                    <h5 class="h5 p-2">H5 - Heading</h5>
+                    <h6 class="h6 p-2">H6 - Heading</h6>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;h1 class="h1">H1 - Heading&lt;/h1>
+
+                            &lt;h2 class="h2">H2 - Heading&lt;/h2>
+
+                            &lt;h3 class="h3">H3 - Heading&lt;/h3>
+
+                            &lt;h4 class="h4">H4 - Heading&lt;/h4>
+
+                            &lt;h5 class="h5">H5 - Heading&lt;/h5>
+
+                            &lt;h6 class="h6">H6 - Heading&lt;/h6>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <h2 class="h2">Small Text</h2>
+                <p class="py-2 small-text">
+                    For small text you can use class
+                    <span class="primary-text-color">"small-text"</span>
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="small-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="small-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Grey text -->
+
+                <h2 class="h2">Grey Text</h2>
+                <p class="py-2 small-text">
+                    To use grey text color, add class
+                    <span class="primary-text-color">"grey-text-color"</span>.
+                </p>
+
+                <div class="p-4 my-2 component-example radius-5">
+                    <div class="grey-text-color">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grey-text-color">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Center Text -->
+
+                <h2 class="h2">Center Text</h2>
+                <p class="py-2 small-text">
+                    To center a text, add class
+                    <span class="primary-text-color">"text-center"</span>.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.&lt;/div>
                         </code>
                     </pre>
                 </div>

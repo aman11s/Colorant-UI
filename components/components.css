@@ -5,6 +5,7 @@
 @import './card.css';
 @import './img.css';
 @import './input.css';
+@import './typography.css';
 
 .component-example {
     background-color: var(--light-grey-color);
