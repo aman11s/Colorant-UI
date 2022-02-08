@@ -6,6 +6,7 @@
 @import './img.css';
 @import './input.css';
 @import './typography.css';
+@import './list.css';
 
 .component-example {
     background-color: var(--light-grey-color);
