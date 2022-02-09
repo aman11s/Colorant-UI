@@ -24,20 +24,24 @@
             </ul>
         </nav>
 
-        <aside class="aside-container">
-            <h3 class="h3 px-5 py-3">Components</h3>
-            <ul>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#alert">Alerts</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
-            </ul>
+        <aside class="aside-container aside-height">
+                <div class="aside-header">
+                    <h3 class="h3 px-5 py-2">Components</h3>
+                    <button id="dropdown-btn"><i class='bx bxs-chevron-down transform-btn'></i></button>
+                </div>
+    
+                <ul class="dropdown-list hide">
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#alert">Alerts</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+                </ul>
         </aside>
 
         <main class="my-4 mx-5 main-container">
@@ -1349,7 +1353,7 @@
                     </pre>
                 </div>
             </div>
-            
+
         </main>
 
         <footer class="footer-container">
@@ -1357,6 +1361,7 @@
         </footer>
     </div>
 
+    <script src="./aside.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
         hljs.highlightAll();
