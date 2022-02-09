@@ -14,13 +14,13 @@
 <body>
     <div class="grid-page-layout">
         <nav class="nav-bar container-flex shadow">
-            <div class="left-nav m-2 ml-3">
+            <div class="left-nav">
                 <a class="h2" href="./index.html"><span class="primary-text-color">Colorant</span> UI</a>
             </div>
-            <ul class="mr-5 right-nav">
-                <li><a class="h6 m-2" href="./index.html">Home</a></li>
-                <li><a class="h6 m-2" href="#">Docs</a></li>
-                <li><a class="h6 m-2" href="#">GitHub</a></li>
+            <ul class="right-nav">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Docs</a></li>
+                <li><a href="https://github.com/aman11s/Colorant-UI">GitHub</a></li>
             </ul>
         </nav>
 
@@ -36,6 +36,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
             </ul>
         </aside>
 
@@ -1120,7 +1121,7 @@
                 <h2 class="h2 mt-4">Headings</h2>
                 <p class="py-2 small-text">
                     For heading you can use h1, h2, h3, h4, h5, h6 elements.
-                    The same font-styling is present for class names 
+                    The same font-styling is present for class names
                     <span class="primary-text-color">h1, h2, h3, h4, h5, h6</span>
                     class. You can add one of these classes to style the text.
                 </p>
@@ -1162,7 +1163,8 @@
 
                 <div class="p-4 my-2 radius-5 component-example">
                     <div class="small-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia
+                        nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
                     </div>
                 </div>
 
@@ -1188,7 +1190,8 @@
 
                 <div class="p-4 my-2 component-example radius-5">
                     <div class="grey-text-color">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur
+                        eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
                     </div>
                 </div>
 
@@ -1240,7 +1243,7 @@
                 <!-- Normal list -->
 
                 <h2 class="h2">Normal List</h2>
-                
+
                 <div class="p-4 my-4 component-example container-flex-center">
                     <ul class="list">
                         <div class="list-heading">Fruits</div>
@@ -1275,12 +1278,12 @@
 
                 <div class="p-4 my-4 component-example container-flex-center">
                     <ul class="list stacked-list">
-                        <li>Notification 1</li> 
-                        <li>Notification 2</li> 
-                        <li>Notification 3</li> 
-                        <li>Notification 4</li> 
-                        <li>Notification 5</li> 
-                        <li>Notification 6</li> 
+                        <li>Notification 1</li>
+                        <li>Notification 2</li>
+                        <li>Notification 3</li>
+                        <li>Notification 4</li>
+                        <li>Notification 5</li>
+                        <li>Notification 6</li>
                     </ul>
                 </div>
 
@@ -1302,6 +1305,51 @@
 
             <hr class="my-4 section-hr">
 
+            <!-- Navigation component -->
+
+            <div>
+                <h1 class="h1" id="navigation">Navigation</h1>
+                <p class="py-2 medium-text">
+                    Navigation bar is used to navigate through the web apps or websites. This navigation component is
+                    responsive.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Simple Navbar -->
+
+                <h2 class="h2">Simple Navbar</h2>
+                <div class="p-4 my-4 radius-5 component-example">
+                    <nav class="nav-bar container-flex shadow">
+                        <div class="left-nav">
+                            <a class="h2 primary-text-color" onclick="return false" href="#">LOGO</a>
+                        </div>
+                        <ul class="right-nav">
+                            <li><a onclick="return false" href="#">Link 1</a></li>
+                            <li><a onclick="return false" href="#">Link 2</a></li>
+                            <li><a onclick="return false" href="#">Link 3</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;nav class="nav-bar container-flex shadow">
+                                &lt;div class="left-nav">
+                                    &lt;a class="h2 primary-text-color" href="#">LOGO&lt;/a>
+                                &lt;/div>
+                                &lt;ul class="right-nav">
+                                    &lt;li>&lt;a href="#">Link 1&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">Link 2&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a href="#">Link 3&lt;/a>&lt;/li>
+                                &lt;/ul>
+                            &lt;/nav>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            
         </main>
 
         <footer class="footer-container">

@@ -1,19 +1,46 @@
 .nav-bar {
     align-items: center;
     grid-area: header;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.left-nav {
+    margin: 1rem;
+    margin-left: 1.5rem;
 }
 
 .right-nav {
     margin-left: auto;
+    margin-right: 2.5rem;
 }
 
 .right-nav li {
     display: inline-block;
+    font-weight: 800;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 600px) {
 
     .right-nav {
         margin-right: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    
+    .left-nav {
+        margin-left: 1rem;
+    }
+
+    .right-nav {
+        margin-right: 1rem;
+    }
+
+    .right-nav li {
+        margin: 0.5rem;
     }
 }
