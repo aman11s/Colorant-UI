@@ -1,0 +1,26 @@
+.list {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    width: 18rem;
+    max-height: 20rem;
+    overflow-y: auto;
+}
+
+.list-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    border-bottom: 2px solid var(--light-grey-color);
+}
+
+.list li {
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.stacked-list > li {
+    background-color: var(--light-grey-color);
+    margin: 1rem;
+    border-radius: 3px;
+}
