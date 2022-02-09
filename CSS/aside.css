@@ -1,9 +1,10 @@
 .aside-container {
     grid-area: aside;
     position: sticky;
-    top: 0;
-    height: 100vh;
+    top: 72px;
+    height: calc(100vh - 2rem);
     box-shadow: 4px 3px 3px var(--light-grey-color);
+    overflow-y: auto;
 }
 
 .sidebar-link > a {
