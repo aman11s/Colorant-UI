@@ -48,6 +48,10 @@
         z-index: 4;
     }
 
+    .aside-header {
+        cursor: pointer;
+    }
+
     #dropdown-btn {
         display: block;
         transition: 0.3s ease;

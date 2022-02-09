@@ -1,10 +1,10 @@
 const dropdownBtn = document.querySelector('#dropdown-btn');
+const asideHeader = document.querySelector('.aside-header');
 const dropdownList = document.querySelector('.dropdown-list');
 const aside = document.querySelector('.aside-container');
 const sidebarLink = document.querySelectorAll('.sidebar-link');
 
-dropdownBtn.addEventListener('click', () => {
-    aside.classList.toggle('aside-height')
+asideHeader.addEventListener('click', () => {
     dropdownList.classList.toggle('hide')
     dropdownBtn.classList.toggle('transform-btn')
 });
