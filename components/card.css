@@ -47,7 +47,7 @@
 }
 
 .card-wishlist-icon:hover {
-    color: #e8415f;
+    color: var(--pink-color);
 }
 
 .item-price {
@@ -92,7 +92,7 @@
 }
 
 .card-badge {
-    background-color: #e8415f;
+    background-color: var(--pink-color);
     padding: 0.5rem;
     position: absolute;
     top: 0;
