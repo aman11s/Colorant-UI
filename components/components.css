@@ -26,6 +26,9 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.gap-3 {
     gap: 3rem;
 }
 
