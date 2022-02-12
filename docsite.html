@@ -17,39 +17,51 @@
             <div class="left-nav">
                 <a class="h2" href="./index.html"><span class="primary-text-color">Colorant</span> UI</a>
             </div>
-            <ul class="right-nav">
+            <ul class="hide right-nav">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Docs</a></li>
                 <li><a href="https://github.com/aman11s/Colorant-UI">GitHub</a></li>
             </ul>
+
+            <!-- Hamburger Menu for smaller display -->
+            <i class='hamburger-icon bx bx-menu'></i>
+            <div class="hamburger-menu">
+                <i class='hamburger-close bx bx-x'></i>
+                <ul class="hamburger-list">
+                    <li class="hamburger-link"><a href="./index.html">Home</a></li>
+                    <li class="hamburger-link"><a href="./docsite.html">Docs</a></li>
+                    <li class="hamburger-link"><a href="https://github.com/aman11s/Colorant-UI">GitHub</a></li>
+                    <li class="hamburger-link"><a href="#installation">Installation</a></li>
+                </ul>
+            </div>
         </nav>
 
         <aside class="aside-container aside-height">
-                <div class="get-started hide">
-                    <h3 class="h3 px-5 py-2">Get Started</h3>
-                    <ul>
-                        <li class="sidebar-link"><a class="px-5 py-2" href="#intro">Introduction</a></li>
-                        <li class="sidebar-link"><a class="px-5 py-2" href="#installation">Installation</a></li>
-                    </ul>
-                </div>
-                
-                <div class="aside-header">
-                    <h3 class="h3 px-5 py-2">Components</h3>
-                    <button id="dropdown-btn"><i class='bx bxs-chevron-down transform-btn'></i></button>
-                </div>
-    
-                <ul class="dropdown-list hide">
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#alert">Alerts</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
-                    <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+            <div class="get-started hide">
+                <h3 class="h3 px-5 py-2">Get Started</h3>
+                <ul>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#intro">Introduction</a></li>
+                    <li class="sidebar-link"><a class="px-5 py-2" href="#installation">Installation</a></li>
                 </ul>
+            </div>
+
+            <div class="aside-header">
+                <h3 class="h3 px-5 py-2">Components</h3>
+                <button id="dropdown-btn"><i class='bx bxs-chevron-down transform-btn'></i></button>
+            </div>
+
+            <ul class="dropdown-list hide">
+                <li class="sidebar-link"><a class="px-5 py-2" href="#alert">Alerts</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#avatar">Avatar</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+            </ul>
         </aside>
 
         <main class="my-4 mx-5 main-container">
@@ -57,20 +69,24 @@
             <!-- Introduction -->
             <h1 id="intro" class="h1">Introduction</h1>
             <p class="small-text py-2">
-                Colorant UI is a <span class="primary-text-color">free, open-source modern</span> CSS library that provides ready-to-use frontend components that you can easily combine to build responsive interface. Colorant UI helps you to quickly build your projects, by focusing much on functionality and not worring about your designs. 
+                Colorant UI is a <span class="primary-text-color">free, open-source modern</span> CSS library that
+                provides ready-to-use frontend components that you can easily combine to build responsive interface.
+                Colorant UI helps you to quickly build your projects, by focusing much on functionality and not worring
+                about your designs.
             </p>
 
             <hr class="my-4">
 
-            <h1 id="installation" class="h1">Installation Guide</h1> 
+            <h1 id="installation" class="h1">Installation Guide</h1>
             <p class="py-2 install-code small-text">
                 Copy and paste the stylesheet
                 <code>&lt;link></code>
-                in the 
-                <code>&lt;head></code> 
-                tag of your html document. So that you can style your components by just adding class names to your html elements. 
-            </p>   
-            
+                in the
+                <code>&lt;head></code>
+                tag of your html document. So that you can style your components by just adding class names to your html
+                elements.
+            </p>
+
             <div>
                 <pre>
                     <code class="html code-example">
@@ -1398,6 +1414,7 @@
         </footer>
     </div>
 
+    <script src="./JS/navbar.js"></script>
     <script src="./JS/aside.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>

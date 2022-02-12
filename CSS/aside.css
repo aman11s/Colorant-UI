@@ -7,10 +7,6 @@
     box-shadow: 4px 3px 3px var(--light-grey-color);
 }
 
-.dropdown-list {
-    /* height: calc(100vh - 15rem); */
-}
-
 .sidebar-link>a {
     display: block;
 }
@@ -49,7 +45,7 @@
     }
 
     .aside-container {
-        z-index: 4;
+        z-index: 1;
     }
 
     .aside-header {
