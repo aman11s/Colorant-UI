@@ -23,7 +23,7 @@
 .right-nav li {
     display: inline-block;
     font-weight: 800;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 @media screen and (max-width: 600px) {
