@@ -2,13 +2,13 @@
     grid-area: aside;
     position: sticky;
     top: 4.5rem;
-    height: 100vh;
+    overflow-y: auto;
+    height: calc(100vh - 4.5rem);
     box-shadow: 4px 3px 3px var(--light-grey-color);
 }
 
 .dropdown-list {
-    overflow-y: auto;
-    height: calc(100vh - 10rem);
+    /* height: calc(100vh - 15rem); */
 }
 
 .sidebar-link>a {
@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 900px) {
     
-    .aside-header .h3 {
+    .aside-container .h3 {
         font-size: 1.25rem;
         padding: 1rem 1.25rem;
     }

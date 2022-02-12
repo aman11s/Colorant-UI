@@ -25,6 +25,14 @@
         </nav>
 
         <aside class="aside-container aside-height">
+                <div class="get-started hide">
+                    <h3 class="h3 px-5 py-2">Get Started</h3>
+                    <ul>
+                        <li class="sidebar-link"><a class="px-5 py-2" href="#intro">Introduction</a></li>
+                        <li class="sidebar-link"><a class="px-5 py-2" href="#installation">Installation</a></li>
+                    </ul>
+                </div>
+                
                 <div class="aside-header">
                     <h3 class="h3 px-5 py-2">Components</h3>
                     <button id="dropdown-btn"><i class='bx bxs-chevron-down transform-btn'></i></button>
@@ -45,6 +53,35 @@
         </aside>
 
         <main class="my-4 mx-5 main-container">
+
+            <!-- Introduction -->
+            <h1 id="intro" class="h1">Introduction</h1>
+            <p class="small-text py-2">
+                Colorant UI is a <span class="primary-text-color">free, open-source modern</span> CSS library that provides ready-to-use frontend components that you can easily combine to build responsive interface. Colorant UI helps you to quickly build your projects, by focusing much on functionality and not worring about your designs. 
+            </p>
+
+            <hr class="my-4">
+
+            <h1 id="installation" class="h1">Installation Guide</h1> 
+            <p class="py-2 install-code small-text">
+                Copy and paste the stylesheet
+                <code>&lt;link></code>
+                in the 
+                <code>&lt;head></code> 
+                tag of your html document. So that you can style your components by just adding class names to your html elements. 
+            </p>   
+            
+            <div>
+                <pre>
+                    <code class="html code-example">
+                        &lt;link rel="stylesheet" href="https://colorant-ui.netlify.app/CSS/main.css">
+                    </code>
+                </pre>
+            </div>
+
+
+            <hr class="my-4 section-hr">
+
             <!-- Alert Component -->
             <div>
                 <h1 id="alert" class="h1">Alerts</h1>
@@ -194,11 +231,11 @@
                     (e.g. <span class="primary-text-color">class="avatar avatar-lg-size"</span>).
                 </p>
 
-                <div class="p-2 px-6 my-2 radius-5 component-example">
-                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-lg-size mx-2">
-                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-md-size mx-2">
-                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-sm-size mx-2">
-                    <img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-xs-size mx-2">
+                <div class="p-2 px-6 my-2 radius-5 container-flex-align-center component-example">
+                    <img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-lg-size mx-2">
+                    <img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-md-size mx-2">
+                    <img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-sm-size mx-2">
+                    <img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-xs-size mx-2">
                 </div>
 
                 <div>
@@ -207,19 +244,19 @@
 
                         &lt;!-- Avatar large size -->
 
-                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-lg-size">
+                        &lt;img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-lg-size">
 
                         &lt;!-- Avatar medium size -->
 
-                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-md-size">
+                        &lt;img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-md-size">
 
                         &lt;!-- Avatar small size -->
 
-                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-sm-size">
+                        &lt;img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-sm-size">
 
                         &lt;!-- Avatar extra small size -->
 
-                        &lt;img src="./components/Images/avatar.jpeg" alt="avatar" class="avatar avatar-xs-size">
+                        &lt;img src="./components/Images/avatar.png" alt="avatar" class="avatar avatar-xs-size">
                     </code>
                 </pre>
                 </div>
@@ -296,17 +333,17 @@
 
                 <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center gap-3">
                     <div class="badge-container">
-                        <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                        <img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge online"></div>
                     </div>
 
                     <div class="badge-container">
-                        <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                        <img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge offline"></div>
                     </div>
 
                     <div class="badge-container">
-                        <img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                        <img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                         <div class="status-badge dnd"></div>
                     </div>
                 </div>
@@ -317,17 +354,17 @@
                             &lt;!-- Use "badge-container" as parent class and variant status class on child -->
 
                             &lt;div class="badge-container">
-                                &lt;img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                                &lt;img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                                 &lt;div class="status-badge online">&lt;/div>
                             &lt;/div>
         
                             &lt;div class="badge-container">
-                                &lt;img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                                &lt;img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                                 &lt;div class="status-badge offline">&lt;/div>
                             &lt;/div>
                             
                             &lt;div class="badge-container">
-                                &lt;img src="./components/Images/avatar.jpeg" alt="avatar-badge" class="avatar avatar-md-size">
+                                &lt;img src="./components/Images/avatar.png" alt="avatar-badge" class="avatar avatar-md-size">
                                 &lt;div class="status-badge dnd">&lt;/div>
                             &lt;/div>
                         </code>
@@ -1361,7 +1398,7 @@
         </footer>
     </div>
 
-    <script src="./aside.js"></script>
+    <script src="./JS/aside.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>
         hljs.highlightAll();
