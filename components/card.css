@@ -4,6 +4,15 @@
     padding: 1rem;
     border-radius: 5px;
     position: relative;
+    border: 1px solid #e1e0e0;
+}
+
+.vertical-card {
+    width: 14rem;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid #e1e0e0;
 }
 
 .card-header {
@@ -38,8 +47,8 @@
 .card-wishlist-icon {
     position: absolute;
     font-size: 2rem;
-    top: 10px;
-    right: 10px;
+    top: 0.5rem;
+    right: 0.5rem;
     background-color: white;
     border-radius: 50%;
     padding: 0.5rem;
