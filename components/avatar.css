@@ -1,5 +1,6 @@
 .avatar {
     border-radius: 50%;
+    background-color: #fff;
 }
 
 .avatar-lg-size {
@@ -9,20 +10,20 @@
 }
 
 .avatar-md-size {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
     font-size: 2rem;
 }
 
 .avatar-sm-size {
-    width: 3rem;
-    height: 3rem;
+    width: 4rem;
+    height: 4rem;
     font-size: 1rem;
 }
 
 .avatar-xs-size {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     font-size: 0.8rem;
 }
 

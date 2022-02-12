@@ -2,9 +2,9 @@
     grid-area: aside;
     position: sticky;
     top: 4.5rem;
-    height: calc(100vh - 2rem);
-    box-shadow: 4px 3px 3px var(--light-grey-color);
     overflow-y: auto;
+    height: calc(100vh - 4.5rem);
+    box-shadow: 4px 3px 3px var(--light-grey-color);
 }
 
 .sidebar-link>a {
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 900px) {
     
-    .aside-header .h3 {
+    .aside-container .h3 {
         font-size: 1.25rem;
         padding: 1rem 1.25rem;
     }
@@ -45,7 +45,7 @@
     }
 
     .aside-container {
-        z-index: 4;
+        z-index: 1;
     }
 
     .aside-header {

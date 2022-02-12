@@ -22,6 +22,12 @@
     max-height: 15rem;
 }
 
+.install-code code {
+    font-size: 1rem;
+    color: var(--primary-color);
+    padding: 0 0.25rem;
+}
+
 .container-flex-align-center {
     display: flex;
     flex-wrap: wrap;
