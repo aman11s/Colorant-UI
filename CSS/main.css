@@ -14,12 +14,6 @@ body {
     color: var(--primary-black-color);
 }
 
-.container {
-    margin: auto;
-    min-height: 100vh;
-    width: 80%;
-}
-
 .container-flex {
     display: flex;
 }
@@ -38,9 +32,12 @@ hr {
 }
 
 .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin: auto;
-    margin-top: 12rem;
+    height: calc(100vh - 4.5rem);
 }
 
 .hero-content button {
