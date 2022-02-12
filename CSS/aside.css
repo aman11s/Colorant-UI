@@ -2,9 +2,13 @@
     grid-area: aside;
     position: sticky;
     top: 4.5rem;
-    height: calc(100vh - 2rem);
+    height: 100vh;
     box-shadow: 4px 3px 3px var(--light-grey-color);
+}
+
+.dropdown-list {
     overflow-y: auto;
+    height: calc(100vh - 10rem);
 }
 
 .sidebar-link>a {
