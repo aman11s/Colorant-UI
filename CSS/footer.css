@@ -1,6 +1,6 @@
 .footer-container {
     text-align: center;
-    background-color: #27629d;
+    background-color: var(--footer-bg-color);
     color: #fff;
 }
 
