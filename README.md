@@ -1,4 +1,4 @@
-# [Colorant UI](https://hue-ui.vercel.app/)
+# [Colorant UI](https://colorant-ui.netlify.app)
 
 A modern and lightweight CSS library
 for building fast and responsive websites. ✨
