@@ -70,9 +70,12 @@ Check out our **[documentation website](https://colorant-ui.netlify.app/docsite.
 - **LinkedIn** - [aman11s](https://www.linkedin.com/in/aman11s)
 
 <br/>
+<hr/>
+<br/>
 
 ### **Live project link:**  [Click here](https://colorant-ui.netlify.app)
 
 <br/>
+<hr/>
 
 ### If you like this repository please give it a ⭐ in the top right corner. 😊
