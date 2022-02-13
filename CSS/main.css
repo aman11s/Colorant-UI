@@ -4,6 +4,7 @@
 @import './navbar.css';
 @import './aside.css';
 @import '/components/components.css';
+@import './footer.css';
 
 html {
     scroll-behavior: smooth;
@@ -62,17 +63,12 @@ hr {
     'header header header header'
     'aside main main main'
     'aside main main main'
-    'footer footer footer footer'
     ;
 }
 
 .main-container {
     grid-area: main;
     overflow-x: auto;
-}
-
-.footer-container {
-    grid-area: footer;
 }
 
 .radius-5 {
@@ -90,7 +86,6 @@ hr {
         'header header header header'
         'aside aside aside aside'
         'main main main main'
-        'footer footer footer footer'
         ;
     }
 }

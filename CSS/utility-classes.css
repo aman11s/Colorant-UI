@@ -19,6 +19,12 @@
     --card-border-color: #e1e0e0;
 }
 
+/* Colors */
+
+.black-text-color {
+    color: #000;
+}
+
 /* Reset default */
 
 * {

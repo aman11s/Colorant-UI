@@ -1,0 +1,19 @@
+.footer-container {
+    text-align: center;
+    background-color: #27629d;
+    color: #fff;
+}
+
+.footer-container p {
+    font-weight: 600;
+}
+
+.footer-link {
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 0 1rem 1rem;
+}
+
+.footer-link a {
+    color: #fff;
+}
