@@ -43,9 +43,9 @@ Check out our **[documentation website](https://colorant-ui.netlify.app/docsite.
 
 ![Documnetation page](/preview/docsite.png 'Docsite') <br/> <br/>
 
-<img src="./preview/mobie-homepage.png" alt="Mobile Homepage"	title="Mobile Homepage" width="375" height="667"/> <br/> <br/>
+<img src="./preview/mobie-homepage.png" alt="Mobile Homepage"	title="Mobile Homepage" width="390" height="844"/> <br/> <br/>
 
-<img src="./preview/mobile-docsite.png" alt="Mobile Avatar"	title="Mobile Avatar" width="375" height="667" />
+<img src="./preview/mobile-docsite.png" alt="Mobile Avatar"	title="Mobile Avatar" width="390" height="844" />
 
 <br/>
 
