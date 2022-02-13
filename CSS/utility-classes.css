@@ -2,7 +2,7 @@
 
 :root {
 
-    /* Colors */
+    /* Colors variables */
     --primary-color: #1D4ED8;
     --light-blue-color: #6A91FF;
     --background-color: #FFFCF9;
@@ -17,6 +17,13 @@
     --success-color: #1eca0f;
     --dark-green-color: #049804;
     --card-border-color: #e1e0e0;
+    --footer-bg-color: #27629d;
+}
+
+/* Colors */
+
+.black-text-color {
+    color: #000;
 }
 
 /* Reset default */

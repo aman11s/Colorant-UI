@@ -4,7 +4,7 @@
     top: 4.5rem;
     overflow-y: auto;
     height: calc(100vh - 4.5rem);
-    box-shadow: 4px 3px 3px var(--light-grey-color);
+    box-shadow: 4px 0px 3px var(--light-grey-color);
 }
 
 .sidebar-link>a {

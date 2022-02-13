@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <meta name="theme-color" content="#6A91FF">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/stackoverflow-dark.min.css">
     <link rel="stylesheet" href="./CSS/main.css">
-    <title>Documentation</title>
+    <title>Docs | Colorant UI</title>
 </head>
 
 <body>
     <div class="grid-page-layout">
+        <!-- Navbar -->
         <nav class="nav-bar shadow">
             <div class="left-nav">
                 <a class="h2" href="./index.html"><span class="primary-text-color">Colorant</span> UI</a>
             </div>
             <ul class="hide right-nav">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="#">Docs</a></li>
-                <li><a href="https://github.com/aman11s/Colorant-UI">GitHub</a></li>
+                <li><a class="nav-pills" href="./index.html">Home</a></li>
+                <li><a class="nav-pills" href="#">Docs</a></li>
+                <li><a class="nav-pills" href="https://github.com/aman11s/Colorant-UI">GitHub</a></li>
             </ul>
 
             <!-- Hamburger Menu for smaller display -->
@@ -36,6 +42,7 @@
             </div>
         </nav>
 
+        <!-- Sidebar -->
         <aside class="aside-container aside-height">
             <div class="get-started hide">
                 <h3 class="h3 px-5 py-2">Get Started</h3>
@@ -47,7 +54,7 @@
 
             <div class="aside-header">
                 <h3 class="h3 px-5 py-2">Components</h3>
-                <button id="dropdown-btn"><i class='bx bxs-chevron-down transform-btn'></i></button>
+                <button id="dropdown-btn"><i class='bx bxs-chevron-down'></i></button>
             </div>
 
             <ul class="dropdown-list hide">
@@ -64,6 +71,7 @@
             </ul>
         </aside>
 
+        <!-- Main -->
         <main class="my-4 mx-5 main-container">
 
             <!-- Introduction -->
@@ -344,8 +352,13 @@
                 <!-- Avatar Badge -->
 
                 <h2 class="h2">Avatar Badge</h2>
-                <p class="py-2 small-text">You can use avatar badge to show the current status of a user. (e.g. <span
-                        class="primary-text-color">online, offline, do not disturb</span>)</p>
+                <p class="py-2 small-text">
+                    You can use avatar badge to show the current status of a user (e.g. 
+                    <span
+                        class="primary-text-color">online, offline, do not disturb
+                    </span>
+                    ).  Check code below to copy the html part as is.
+                </p>
 
                 <div class="p-2 px-6 my-2 radius-5 component-example container-flex-align-center gap-3">
                     <div class="badge-container">
@@ -606,7 +619,7 @@
                 <h2 class="h2">Text only card</h2>
                 <p class="py-2 small-text">
                     Use text card component in places where you want to show a title and description related to that
-                    title.
+                    title. Copy below code and put your desired text and you are good to go.
                 </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
@@ -640,7 +653,11 @@
 
                 <!-- Card with dismiss -->
 
-                <h2 class="h2 mb-4">Card with dismiss</h2>
+                <h2 class="h2">Card with dismiss</h2>
+
+                <p class="py-2 small-text">
+                    You can add close icon button into your card to close the card. Just by adding below given classes.
+                </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
                     <div class="card">
@@ -675,7 +692,10 @@
 
                 <!-- Vertical card -->
 
-                <h2 class="h2 my-4">Vertical card</h2>
+                <h2 class="h2">Vertical card</h2>
+                <p class="py-2 small-text">
+                    To use vertical card with image, add class <span class="primary-text-color">"vertical-card"</span>. Copy below code and put your desired text and image and you are good to go.
+                </p>
 
                 <div class="p-4 my-2 radius-5 component-example gap-3 container-flex-center">
                     <div class="vertical-card">
@@ -777,7 +797,10 @@
 
                 <!-- Horizontal card -->
 
-                <h2 class="h2 my-4">Horizontal card</h2>
+                <h2 class="h2">Horizontal card</h2>
+                <p class="py-2 small-text">
+                    To use horizontal card with image, add class <span class="primary-text-color">"card-horizontal"</span> with <span class="primary-text-color">"card"</span> class. Copy below code and put your desired text and image and you are good to go.
+                </p>
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
                     <div class="card card-horizontal">
                         <div class="card-img-container">
@@ -830,7 +853,10 @@
 
                 <!-- Card with badge -->
 
-                <h2 class="h2 my-4">Card with badge</h2>
+                <h2 class="h2">Card with badge</h2>
+                <p class="py-2 small-text">
+                    To get badge on card, add class <span class="primary-text-color">"card-badge"</span> to child element of <span class="primary-text-color">"card"</span> class. Copy below code and put your desired badge text and image and you are good to go.
+                </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
 
@@ -892,7 +918,10 @@
 
                 <!-- Card with text overlay -->
 
-                <h2 class="h2 my-4">Card with text overlay</h2>
+                <h2 class="h2">Card with text overlay</h2>
+                <p class="py-2 small-text">
+                    To get card with text overlay, add two classes <span class="primary-text-color">"overlay-container"</span> and <span class="primary-text-color">"overlay-text"</span> to children elements of <span class="primary-text-color">"card"</span> class. Copy below code and put your desired overlay text and image and you are good to go.
+                </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
 
@@ -958,7 +987,10 @@
 
                 <!-- Card with shadow -->
 
-                <h2 class="h2 my-4">Card with shadow</h2>
+                <h2 class="h2">Card with shadow</h2>
+                <p class="py-2 small-text">
+                    To get shadow effect on card, add class <span class="primary-text-color">"shadow"</span> with <span class="primary-text-color">"card"</span> class. Copy below code and put your card details and you are good to go.
+                </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
                     <div class="card shadow">
@@ -1030,7 +1062,7 @@
 
                 <h2 class="h2">Responsive Image</h2>
                 <p class="py-2 small-text">
-                    You can add class <span class="primary-text-color">img-responsive</span> to make your image fit the
+                    You can add class <span class="primary-text-color">"img-responsive"</span> to make your image fit the
                     width of container. It's height will get adjusted by keeping the aspect ratio same. If you want to
                     change the aspect ratio, you will have to crop the image.
                 </p>
@@ -1053,7 +1085,7 @@
 
                 <h2 class="h2">Round Image</h2>
                 <p class="py-2 small-text">
-                    You can add class <span class="primary-text-color">img-round</span> to make your image round shaped.
+                    You can add class <span class="primary-text-color">"img-round"</span> to make your image round shaped.
                 </p>
 
                 <div class="p-4 my-2 radius-5 component-example container-flex-center">
@@ -1121,8 +1153,11 @@
                 <!-- Input with validations -->
 
                 <h2 class="h2">Input with validations</h2>
+                <p class="py-2 small-text">
+                    You can add class <span class="primary-text-color">"input-default, input-success, input-error, input-warning"</span> with class <span class="primary-text-color">"input-box"</span> to get input box with validations.
+                </p>
 
-                <div class="p-4 my-4 radius-5 component-example">
+                <div class="p-4 my-2 radius-5 component-example">
 
                     <label for="default">Default</label>
                     <input type="text" class="input-box input-default" placeholder="Default state">
@@ -1300,8 +1335,12 @@
                 <!-- Normal list -->
 
                 <h2 class="h2">Normal List</h2>
+                <p class="py-2 small-text">
+                    To get a list, add class
+                    <span class="primary-text-color">"list"</span>.
+                </p>
 
-                <div class="p-4 my-4 component-example container-flex-center">
+                <div class="p-4 my-2 component-example container-flex-center">
                     <ul class="list">
                         <div class="list-heading">Fruits</div>
                         <li>Apple</li>
@@ -1332,8 +1371,12 @@
                 <!-- Stacked List -->
 
                 <h2 class="h2">Stacked List</h2>
+                <p class="py-2 small-text">
+                    To get stacked list, add class
+                    <span class="primary-text-color">"stacked-list"</span> with <span class="primary-text-color">"list"</span>.
+                </p>
 
-                <div class="p-4 my-4 component-example container-flex-center">
+                <div class="p-4 my-2 component-example container-flex-center">
                     <ul class="list stacked-list">
                         <li>Notification 1</li>
                         <li>Notification 2</li>
@@ -1376,15 +1419,19 @@
                 <!-- Simple Navbar -->
 
                 <h2 class="h2">Simple Navbar</h2>
-                <div class="p-4 my-4 radius-5 component-example">
-                    <nav class="nav-bar shadow">
+                <p class="py-2 small-text">
+                    To get navbar, add class
+                    <span class="primary-text-color">"nav-bar"</span>. Check below code and copy paste. 
+                </p>
+                <div class="p-4 my-2 radius-5 component-example">
+                    <nav class="nav-bar z-index-0 shadow">
                         <div class="left-nav">
                             <a class="h2 primary-text-color" onclick="return false" href="#">LOGO</a>
                         </div>
                         <ul class="right-nav">
-                            <li><a onclick="return false" href="#">Link 1</a></li>
-                            <li><a onclick="return false" href="#">Link 2</a></li>
-                            <li><a onclick="return false" href="#">Link 3</a></li>
+                            <li><a class="nav-pills" onclick="return false" href="#">Link 1</a></li>
+                            <li><a class="nav-pills" onclick="return false" href="#">Link 2</a></li>
+                            <li><a class="nav-pills" onclick="return false" href="#">Link 3</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -1392,27 +1439,32 @@
                 <div>
                     <pre>
                         <code class="html code-example">
-                            &lt;nav class="nav-bar container-flex shadow">
+                            &lt;nav class="nav-bar shadow">
                                 &lt;div class="left-nav">
                                     &lt;a class="h2 primary-text-color" href="#">LOGO&lt;/a>
                                 &lt;/div>
                                 &lt;ul class="right-nav">
-                                    &lt;li>&lt;a href="#">Link 1&lt;/a>&lt;/li>
-                                    &lt;li>&lt;a href="#">Link 2&lt;/a>&lt;/li>
-                                    &lt;li>&lt;a href="#">Link 3&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a class="nav-pills" href="#">Link 1&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a class="nav-pills" href="#">Link 2&lt;/a>&lt;/li>
+                                    &lt;li>&lt;a class="nav-pills" href="#">Link 3&lt;/a>&lt;/li>
                                 &lt;/ul>
                             &lt;/nav>
                         </code>
                     </pre>
                 </div>
             </div>
-
         </main>
-
-        <footer class="footer-container">
-
-        </footer>
     </div>
+    
+    <footer class="footer-container p-2">
+        <p class="pt-1 pb-2 small-text">Made with <span class="black-text-color">&lt;/></span> by Aman Singh </p>
+        <ul>
+            <li class="footer-link"><a href="https://github.com/aman11s" target="_blank"><i class='bx bxl-github'></i></a></li>
+            <li class="footer-link"><a href="https://twitter.com/aman11s" target="_blank"><i class='bx bxl-twitter' ></i></a></li>
+            <li class="footer-link"><a href="https://www.linkedin.com/in/aman11s/" target="_blank"><i class='bx bxl-linkedin-square'></i></a></li>
+        </ul>
+        <div>&copy 2022 | Colorant UI | All Rights Reserved</div>
+    </footer>
 
     <script src="./JS/navbar.js"></script>
     <script src="./JS/aside.js"></script>
