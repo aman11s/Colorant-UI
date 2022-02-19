@@ -16,6 +16,16 @@
     background-color: #113EBD;
 }
 
+.secondary-solid-btn {
+    background-color: var(--dark-grey-color);
+    border: 2px solid var(--dark-grey-color);
+    color: #fff;
+}
+
+.secondary-solid-btn:hover {
+    background-color: #8f8f8f;
+}
+
 .primary-error-btn {
     background-color: var(--error-color);
     border: 2px solid var(--error-color);
@@ -44,6 +54,17 @@
 
 .primary-outline-btn:hover {
     background-color: var(--primary-color);
+    color: #fff;
+}
+
+.secondary-outline-btn {
+    background-color: #fff;
+    border: 2px solid var(--dark-grey-color);
+    color: var(--primary-black-color);
+}
+
+.secondary-outline-btn:hover {
+    background-color: var(--dark-grey-color);
     color: #fff;
 }
 
