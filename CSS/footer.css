@@ -1,6 +1,6 @@
 .footer-container {
     text-align: center;
-    background-color: var(--footer-bg-color);
+    background-color: var(--primary-black-color);
     color: #fff;
 }
 
@@ -16,4 +16,8 @@
 
 .footer-link a {
     color: #fff;
+}
+
+.code-symbol {
+    color: var(--success-color);
 }
