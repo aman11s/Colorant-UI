@@ -58,7 +58,7 @@ hr {
 
 .grid-page-layout {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 22% 1fr 1fr 1fr;
     grid-template-areas: 
     'header header header header'
     'aside main main main'
