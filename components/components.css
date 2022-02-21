@@ -9,6 +9,7 @@
 @import './list.css';
 @import './toast.css';
 @import './grid.css';
+@import './modal.css';
 
 .component-example {
     background-color: var(--light-grey-color);
