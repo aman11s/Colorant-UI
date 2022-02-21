@@ -19,6 +19,11 @@ body {
     display: flex;
 }
 
+.container-flex-justify-center {
+    display: flex;
+    justify-content: center;
+}
+
 a {
     text-decoration: none;
     color: var(--primary-black-color);

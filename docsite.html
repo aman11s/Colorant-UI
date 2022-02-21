@@ -69,6 +69,8 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#toast">Toast</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#grid">Grid</a></li>
             </ul>
         </aside>
 
@@ -1561,6 +1563,272 @@
                                     hamburgerMenu.classList.remove('hamburger-menu-open');
                                 });
                             });
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Toast component -->
+
+            <div>
+                <h1 id="toast" class="h1">Toast</h1>
+                <p class="py-2 medium-text">
+                    Snackbar is to used show messages, notifications, or some actions that need users attention.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Simple Toast -->
+
+                <h2 class="h2">Simple Toast</h2>
+                <p class="py-2 small-text">
+                    You can use toast component by adding <span class="primary-text-color">"toast"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="toast">
+                        <p>
+                            Can't send photo. Retry in 5 seconds.
+                            <a onclick="return false" class="primary-text-color pl-2" href="#">RETRY</a>
+                            <div class="close-toast">X</div>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                                &lt;div class="toast">
+                                    &lt;p>
+                                        Can't send photo. Retry in 5 seconds.
+                                        &lt;a class="primary-text-color pl-2" href="#">RETRY&lt;/a>
+                                        &lt;div class="close-toast">X&lt;/div>
+                                    &lt;/p>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Primary toast -->
+
+                <h2 class="h2">Primary Toast</h2>
+                <p class="py-2 small-text">
+                    You can use primary toast component by adding <span class="primary-text-color">"toast-primary"</span> class with <span class="primary-text-color">"toast"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="toast toast-primary">
+                        <p>
+                            Primary Toast
+                            <div class="close-toast">X</div>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="toast toast-primary">
+                                &lt;p>
+                                    Primary Toast
+                                    &lt;div class="close-toast">X&lt;/div>
+                                &lt;/p>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Success Toast -->
+
+                <h2 class="h2">Success Toast</h2>
+                <p class="py-2 small-text">
+                    You can use success toast component by adding <span class="primary-text-color">"toast-success"</span> class with <span class="primary-text-color">"toast"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="toast toast-success">
+                        <p>
+                            Success Toast
+                            <div class="close-toast">X</div>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="toast toast-success">
+                                &lt;p>
+                                    Success Toast
+                                    &lt;div class="close-toast">X&lt;/div>
+                                &lt;/p>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Danger Toast -->
+
+                <h2 class="h2">Danger Toast</h2>
+                <p class="py-2 small-text">
+                    You can use danger toast component by adding <span class="primary-text-color">"toast-danger"</span> class with <span class="primary-text-color">"toast"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="toast toast-danger">
+                        <p>
+                            Danger Toast
+                            <div class="close-toast">X</div>
+                        </p>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="toast toast-danger">
+                                &lt;p>
+                                    Danger Toast
+                                    &lt;div class="close-toast">X&lt;/div>
+                                &lt;/p>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Warning Toast -->
+                
+                <h2 class="h2">Warning Toast</h2>
+                <p class="py-2 small-text">
+                    You can use warning toast component by adding <span class="primary-text-color">"toast-danger"</span> class with <span class="primary-text-color">"toast"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="toast toast-warning">
+                        <p>
+                            Warning Toast
+                            <div class="close-toast">X</div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Grid Component -->
+
+            <div>
+                <h1 id="grid" class="h1">Grid Simplified</h1>
+                <p class="py-2 medium-text">
+                    <span class="primary-text-color">CSS Grid</span> is a powerful tool that allows for two-dimensional layouts to be created on the web.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Grid auto fit -->
+
+                <h2 class="h2">Grid auto fit</h2>
+                <p class="py-2 small-text">
+                    <!-- You can layout your page in 2 columns by add class <spna class="primary-text-color">"grid-cl-2"</spna> -->
+                    By adding class <span class="primary-text-color">"grid"</span> and <span class="primary-text-color">"grid-auto"</span>. Itmes will automatically fit inside parent conatiner with minimum width of 320px.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-auto">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-auto">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Two columns grid -->
+
+                <h2 class="h2">Two columns grid</h2>
+                <p class="py-2 small-text">
+                    You can layout your page in 2 columns by adding class <spna class="primary-text-color">"grid-cl-2"</spna> with <span class="primary-text-color">"grid"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-cl-2">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-cl-2">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Three columns grid -->
+
+                <h2 class="h2">Three columns grid</h2>
+                <p class="py-2 small-text">
+                    You can layout your page in 3 columns by adding class <spna class="primary-text-color">"grid-cl-3"</spna> with <span class="primary-text-color">"grid"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-cl-3">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-cl-3">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
                         </code>
                     </pre>
                 </div>

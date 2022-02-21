@@ -1,0 +1,24 @@
+.grid {
+    display: grid;
+}
+
+.grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2rem;
+}
+
+.grid-item {
+    background-color: var(--primary-color);
+    height: 10rem;
+    border: 2px solid var(--primary-black-color);
+}
+
+.grid-cl-2 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.grid-cl-3 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}

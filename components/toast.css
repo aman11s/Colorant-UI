@@ -1,0 +1,34 @@
+.toast {
+    background-color: var(--primary-black-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 25rem;
+}
+
+.close-toast {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.toast-primary {
+    background-color: var(--light-blue-color);
+    color: var(--black-color);
+}
+
+.toast-success {
+    background-color: var(--success-color);
+    color: var(--black-color);
+}
+
+.toast-danger {
+    background-color: var(--error-color);
+    color: var(--black-color);
+}
+
+.toast-warning {
+    background-color: var(--warning-color);
+    color: var(--black-color);
+}
