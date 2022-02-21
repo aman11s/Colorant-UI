@@ -64,13 +64,16 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#badge">Badge</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#button">Button</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#card">Card</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#grid">Grid</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#image">Image</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#input">Input</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#modal">Modal</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#rating">Rating</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#slider">Slider</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#toast">Toast</a></li>
-                <li class="sidebar-link"><a class="px-5 py-2" href="#grid">Grid</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
             </ul>
         </aside>
 
@@ -1070,6 +1073,115 @@
 
             <hr class="my-4 section-hr">
 
+            <!-- Grid Component -->
+
+            <div>
+                <h1 id="grid" class="h1">Grid Simplified</h1>
+                <p class="py-2 medium-text">
+                    <span class="primary-text-color">CSS Grid</span> is a powerful tool that allows for two-dimensional layouts to be created on the web.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Grid auto fit -->
+
+                <h2 class="h2">Grid auto fit</h2>
+                <p class="py-2 small-text">
+                    <!-- You can layout your page in 2 columns by add class <spna class="primary-text-color">"grid-cl-2"</spna> -->
+                    By adding class <span class="primary-text-color">"grid"</span> and <span class="primary-text-color">"grid-auto"</span>. Itmes will automatically fit inside parent conatiner with minimum width of 320px.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-auto">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-auto">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Two columns grid -->
+
+                <h2 class="h2">Two columns grid</h2>
+                <p class="py-2 small-text">
+                    You can layout your page in 2 columns by adding class <spna class="primary-text-color">"grid-cl-2"</spna> with <span class="primary-text-color">"grid"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-cl-2">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-cl-2">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <!-- Three columns grid -->
+
+                <h2 class="h2">Three columns grid</h2>
+                <p class="py-2 small-text">
+                    You can layout your page in 3 columns by adding class <spna class="primary-text-color">"grid-cl-3"</spna> with <span class="primary-text-color">"grid"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="grid grid-cl-3">
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                        <div class="grid-item"></div>
+                    </div>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="grid grid-cl-3">
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                                &lt;div class="grid-item">&lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
             <!-- Image component -->
 
             <div>
@@ -1227,127 +1339,6 @@
 
             <hr class="my-4 section-hr">
 
-            <!-- Typography -->
-
-            <div>
-                <h1 class="h1" id="typography">Typography</h1>
-                <p class="py-2 medium-text">Check out below text utilities.</p>
-
-                <hr class="my-4">
-
-                <!-- Headings -->
-                <h2 class="h2 mt-4">Headings</h2>
-                <p class="py-2 small-text">
-                    For heading you can use h1, h2, h3, h4, h5, h6 elements.
-                    The same font-styling is present for class names
-                    <span class="primary-text-color">h1, h2, h3, h4, h5, h6</span>
-                    class. You can add one of these classes to style the text.
-                </p>
-
-                <div class="p-4 my-2 radius-5 component-example">
-                    <h1 class="h1 p-2">H1 - Heading</h1>
-                    <h2 class="h2 p-2">H2 - Heading</h2>
-                    <h3 class="h3 p-2">H3 - Heading</h3>
-                    <h4 class="h4 p-2">H4 - Heading</h4>
-                    <h5 class="h5 p-2">H5 - Heading</h5>
-                    <h6 class="h6 p-2">H6 - Heading</h6>
-                </div>
-
-                <div>
-                    <pre>
-                        <code class="html code-example">
-                            &lt;h1 class="h1">H1 - Heading&lt;/h1>
-
-                            &lt;h2 class="h2">H2 - Heading&lt;/h2>
-
-                            &lt;h3 class="h3">H3 - Heading&lt;/h3>
-
-                            &lt;h4 class="h4">H4 - Heading&lt;/h4>
-
-                            &lt;h5 class="h5">H5 - Heading&lt;/h5>
-
-                            &lt;h6 class="h6">H6 - Heading&lt;/h6>
-                        </code>
-                    </pre>
-                </div>
-
-                <hr class="my-4">
-
-                <h2 class="h2">Small Text</h2>
-                <p class="py-2 small-text">
-                    For small text you can use class
-                    <span class="primary-text-color">"small-text"</span>
-                </p>
-
-                <div class="p-4 my-2 radius-5 component-example">
-                    <div class="small-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia
-                        nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
-                    </div>
-                </div>
-
-                <div>
-                    <pre>
-                        <code class="html code-example">
-                            &lt;div class="small-text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
-                            &lt;/div>
-                        </code>
-                    </pre>
-                </div>
-
-                <hr class="my-4">
-
-                <!-- Grey text -->
-
-                <h2 class="h2">Grey Text</h2>
-                <p class="py-2 small-text">
-                    To use grey text color, add class
-                    <span class="primary-text-color">"grey-text-color"</span>.
-                </p>
-
-                <div class="p-4 my-2 component-example radius-5">
-                    <div class="grey-text-color">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur
-                        eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
-                    </div>
-                </div>
-
-                <div>
-                    <pre>
-                        <code class="html code-example">
-                            &lt;div class="grey-text-color">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
-                            &lt;/div>
-                        </code>
-                    </pre>
-                </div>
-
-                <hr class="my-4">
-
-                <!-- Center Text -->
-
-                <h2 class="h2">Center Text</h2>
-                <p class="py-2 small-text">
-                    To center a text, add class
-                    <span class="primary-text-color">"text-center"</span>.
-                </p>
-
-                <div class="p-4 my-2 radius-5 component-example">
-                    <div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
-                </div>
-
-                <div>
-                    <pre>
-                        <code class="html code-example">
-                            &lt;div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.&lt;/div>
-                        </code>
-                    </pre>
-                </div>
-            </div>
-
-            <hr class="my-4 section-hr">
-
             <!-- List component -->
 
             <div>
@@ -1425,6 +1416,95 @@
                                 &lt;li>Notification 5&lt;/li> 
                                 &lt;li>Notification 6&lt;/li> 
                             &lt;/ul>
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+            <!-- Modal Component -->
+
+            <div>
+                <h1 class="h1" id="modal">Modal</h1>
+                <p class="py-2 medium-text">
+                    The modal component provides a solid foundation for creating dialogs, popovers, lightboxes.
+                </p>
+
+                <hr class="my-4">
+
+                <!-- Standard Modal -->
+                <h2 class="h2">Standard Modal</h2>
+                <p class="py-2 small-text">
+                    You can use modal component by simply adding 
+                    <span class="primary-text-color">"modal"</span> class. Check below code and copy paste.
+                </p>
+                <p class="small-text">
+                    <span class="primary-text-color modal-demo-click">Click here</span> for live demo.
+                </p>
+
+                <div id="modal-live-demo" class="modal-demo">
+                    <div class="modal">
+                        <div class="modal-header">
+                            <div class="modal-title">Modal Title</div>
+                            <i class='modal-close bx bx-x'></i>
+                        </div>
+                        <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam temporibus mollitia provident a? Illo saepe libero voluptas pariatur est beatae!</div>
+                        <div class="modal-footer">
+                         <button class="btn secondary-solid-btn">Close</button>
+                         <button class="btn primary-solid-btn">Save Changes</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="p-4 my-2 radius-5 container-flex-center component-example">
+                   <div class="modal">
+                       <div class="modal-header">
+                           <div class="modal-title">Modal Title</div>
+                           <i class='modal-close bx bx-x'></i>
+                       </div>
+                       <div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam temporibus mollitia provident a? Illo saepe libero voluptas pariatur est beatae!</div>
+                       <div class="modal-footer">
+                        <button class="btn secondary-solid-btn">Close</button>
+                        <button class="btn primary-solid-btn">Save Chnages</button>
+                       </div>
+                   </div>
+                </div>
+
+                <h3 class="h3">HTML Code:</h3>
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="modal">
+                                &lt;div class="modal-header">
+                                    &lt;div class="modal-title">Modal Title&lt;/div>
+                                    &lt;i class='modal-close bx bx-x'>&lt;/i>
+                                &lt;/div>
+                                &lt;div class="modal-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam temporibus mollitia provident a? Illo saepe libero voluptas pariatur est beatae!&lt;/div>
+                                &lt;div class="modal-footer">
+                                 &lt;button class="btn secondary-solid-btn">Close&lt;/button>
+                                 &lt;button class="btn primary-solid-btn">Save Chnages&lt;/button>
+                                &lt;/div>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <h3 class="h3">JavaScript Code:</h3>
+                <div>
+                    <pre>
+                        <code class="javascript code-example">
+                            const modalLiveDemo = document.querySelector('#modal-live-demo');
+                            const modalCloseButton = document.querySelector('.modal-close');
+                            const modalDemoClick = document.querySelector('.modal-demo-click');
+
+                            modalCloseButton.addEventListener('click', () => {
+                                modalLiveDemo.classList.remove('active-modal');
+                            })
+
+                            modalDemoClick.addEventListener('click', () => {
+                                modalLiveDemo.classList.add('active-modal');
+                            })
                         </code>
                     </pre>
                 </div>
@@ -1570,7 +1650,102 @@
 
             <hr class="my-4 section-hr">
 
-            <!-- Toast component -->
+            <!-- Ratig component -->
+
+            <div>
+                <h1 class="h1" id="rating">Rating</h1>
+                <p class="py-2 medium-text">Ratings are used to display user responses for and particular product.</p>
+
+                <hr class="my-4">
+
+                <!-- Standard Rating -->
+                <h2 class="h2">Standard Rating</h2>
+                <p class="py-2 small-text">
+                    You can use rating component by adding <span class="primary-text-color">"rating"</span> on parent element and <span class="primary-text-color">"rating-star"</span> on children elements.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="rating">
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                    </div>
+                </div>
+
+                <h3 class="h3">HTML Code:</h3>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="rating">
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <h3 class="h3">JavaScript Code:</h3>
+
+                <div>
+                    <pre>
+                        <code class="javascript code-example">
+                            const starRating = document.querySelectorAll('.rating-star'); 
+
+                            starRating.forEach((star, index) => {
+    
+                                star.addEventListener('click', () => {
+                                    for(let i=0; i < 5; i++) {
+                                        starRating[i].classList.remove('bxs-star');
+                                    }
+
+                                    for(let i=0; i <= index; i++) {
+                                        starRating[i].classList.add('bxs-star');
+                                    }
+                                });
+                            });
+                        </code>
+                    </pre>
+                </div>
+            </div>            
+
+            <hr class="my-4 section-hr"></hr>
+
+            <!-- Slider Component -->
+
+            <div>
+                <h1 class="h1" id="slider">Slider</h1>
+                <p class="py-2 medium-text">Sliders allow the users to make selections from a range of values.</p>
+
+                <hr class="my-4">
+
+                <!-- Basic Slider -->
+                <h2 class="h2">Basic Slider</h2>
+                <p class="py-2 small-text">
+                    You can use slider component by adding <span class="primary-text-color">"slider"</span> class.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <input class="slider" type="range" min="0" max="500" value="10">
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;input class="slider" type="range" min="0" max="500" value="50">
+                        </code>
+                    </pre>
+                </div>
+            </div>
+
+            <hr class="my-4 section-hr">
+
+             <!-- Toast component -->
 
             <div>
                 <h1 id="toast" class="h1">Toast</h1>
@@ -1727,41 +1902,70 @@
 
             <hr class="my-4 section-hr">
 
-            <!-- Grid Component -->
+            <!-- Typography -->
 
             <div>
-                <h1 id="grid" class="h1">Grid Simplified</h1>
-                <p class="py-2 medium-text">
-                    <span class="primary-text-color">CSS Grid</span> is a powerful tool that allows for two-dimensional layouts to be created on the web.
-                </p>
+                <h1 class="h1" id="typography">Typography</h1>
+                <p class="py-2 medium-text">Check out below text utilities.</p>
 
                 <hr class="my-4">
 
-                <!-- Grid auto fit -->
-
-                <h2 class="h2">Grid auto fit</h2>
+                <!-- Headings -->
+                <h2 class="h2 mt-4">Headings</h2>
                 <p class="py-2 small-text">
-                    <!-- You can layout your page in 2 columns by add class <spna class="primary-text-color">"grid-cl-2"</spna> -->
-                    By adding class <span class="primary-text-color">"grid"</span> and <span class="primary-text-color">"grid-auto"</span>. Itmes will automatically fit inside parent conatiner with minimum width of 320px.
+                    For heading you can use h1, h2, h3, h4, h5, h6 elements.
+                    The same font-styling is present for class names
+                    <span class="primary-text-color">h1, h2, h3, h4, h5, h6</span>
+                    class. You can add one of these classes to style the text.
                 </p>
 
                 <div class="p-4 my-2 radius-5 component-example">
-                    <div class="grid grid-auto">
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
+                    <h1 class="h1 p-2">H1 - Heading</h1>
+                    <h2 class="h2 p-2">H2 - Heading</h2>
+                    <h3 class="h3 p-2">H3 - Heading</h3>
+                    <h4 class="h4 p-2">H4 - Heading</h4>
+                    <h5 class="h5 p-2">H5 - Heading</h5>
+                    <h6 class="h6 p-2">H6 - Heading</h6>
+                </div>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;h1 class="h1">H1 - Heading&lt;/h1>
+
+                            &lt;h2 class="h2">H2 - Heading&lt;/h2>
+
+                            &lt;h3 class="h3">H3 - Heading&lt;/h3>
+
+                            &lt;h4 class="h4">H4 - Heading&lt;/h4>
+
+                            &lt;h5 class="h5">H5 - Heading&lt;/h5>
+
+                            &lt;h6 class="h6">H6 - Heading&lt;/h6>
+                        </code>
+                    </pre>
+                </div>
+
+                <hr class="my-4">
+
+                <h2 class="h2">Small Text</h2>
+                <p class="py-2 small-text">
+                    For small text you can use class
+                    <span class="primary-text-color">"small-text"</span>
+                </p>
+
+                <div class="p-4 my-2 radius-5 component-example">
+                    <div class="small-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia
+                        nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
                     </div>
                 </div>
 
                 <div>
                     <pre>
                         <code class="html code-example">
-                            &lt;div class="grid grid-auto">
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
+                            &lt;div class="small-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptates numquam officia nostrum! Voluptatum id modi quam asperiores perspiciatis perferendis.
                             &lt;/div>
                         </code>
                     </pre>
@@ -1769,30 +1973,26 @@
 
                 <hr class="my-4">
 
-                <!-- Two columns grid -->
+                <!-- Grey text -->
 
-                <h2 class="h2">Two columns grid</h2>
+                <h2 class="h2">Grey Text</h2>
                 <p class="py-2 small-text">
-                    You can layout your page in 2 columns by adding class <spna class="primary-text-color">"grid-cl-2"</spna> with <span class="primary-text-color">"grid"</span> class.
+                    To use grey text color, add class
+                    <span class="primary-text-color">"grey-text-color"</span>.
                 </p>
 
-                <div class="p-4 my-2 radius-5 component-example">
-                    <div class="grid grid-cl-2">
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
+                <div class="p-4 my-2 component-example radius-5">
+                    <div class="grey-text-color">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur
+                        eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
                     </div>
                 </div>
 
                 <div>
                     <pre>
                         <code class="html code-example">
-                            &lt;div class="grid grid-cl-2">
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
+                            &lt;div class="grey-text-color">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore laudantium aspernatur eveniet culpa numquam accusamus ducimus in qui? Culpa, commodi.
                             &lt;/div>
                         </code>
                     </pre>
@@ -1800,41 +2000,29 @@
 
                 <hr class="my-4">
 
-                <!-- Three columns grid -->
+                <!-- Center Text -->
 
-                <h2 class="h2">Three columns grid</h2>
+                <h2 class="h2">Center Text</h2>
                 <p class="py-2 small-text">
-                    You can layout your page in 3 columns by adding class <spna class="primary-text-color">"grid-cl-3"</spna> with <span class="primary-text-color">"grid"</span> class.
+                    To center a text, add class
+                    <span class="primary-text-color">"text-center"</span>.
                 </p>
 
                 <div class="p-4 my-2 radius-5 component-example">
-                    <div class="grid grid-cl-3">
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                        <div class="grid-item"></div>
-                    </div>
+                    <div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.</div>
                 </div>
 
                 <div>
                     <pre>
                         <code class="html code-example">
-                            &lt;div class="grid grid-cl-3">
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                                &lt;div class="grid-item">&lt;/div>
-                            &lt;/div>
+                            &lt;div class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing.&lt;/div>
                         </code>
                     </pre>
                 </div>
             </div>
 
             <hr class="my-4 section-hr">
+
 
         </main>
     </div>
@@ -1852,6 +2040,8 @@
         <div>&copy 2022 | Colorant UI | All Rights Reserved</div>
     </footer>
 
+    <script src="./JS/rating.js"></script>
+    <script src="./JS/modal.js"></script>
     <script src="./JS/navbar.js"></script>
     <script src="./JS/aside.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>

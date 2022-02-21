@@ -59,6 +59,8 @@
 
     .dropdown-list {
         background-color: var(--grey-color);
+        height: calc(100vh - 20rem);
+        overflow-y: auto;
     }
 
     .hide {

@@ -1,0 +1,8 @@
+.rating > i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.rating-star:hover {
+    transform: scale(1.2);
+}
