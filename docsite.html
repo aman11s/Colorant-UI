@@ -70,6 +70,7 @@
                 <li class="sidebar-link"><a class="px-5 py-2" href="#list">Lists</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#modal">Modal</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#navigation">Navigation</a></li>
+                <li class="sidebar-link"><a class="px-5 py-2" href="#rating">Rating</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#toast">Toast</a></li>
                 <li class="sidebar-link"><a class="px-5 py-2" href="#typography">Typography</a></li>
             </ul>
@@ -1648,6 +1649,74 @@
 
             <hr class="my-4 section-hr">
 
+            <!-- Ratig component -->
+
+            <div>
+                <h1 class="h1" id="rating">Rating</h1>
+                <p class="py-2 medium-text">Ratings are used to display user responses for and particular product.</p>
+
+                <hr class="my-4">
+
+                <!-- Standard Rating -->
+                <h2 class="h2">Standard Rating</h2>
+                <p class="py-2 small-text">
+                    You can use rating component by adding <span class="primary-text-color">"rating"</span> on parent element and <span class="primary-text-color">"rating-star"</span> on children elements.
+                </p>
+
+                <div class="p-4 my-2 radius-5 container-flex-justify-center component-example">
+                    <div class="rating">
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                        <i class='rating-star bx bx-star'></i>
+                    </div>
+                </div>
+
+                <h3 class="h3">HTML Code:</h3>
+
+                <div>
+                    <pre>
+                        <code class="html code-example">
+                            &lt;div class="rating">
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                                &lt;i class='rating-star bx bx-star'>&lt;/i>
+                            &lt;/div>
+                        </code>
+                    </pre>
+                </div>
+
+                <h3 class="h3">JavaScript Code:</h3>
+
+                <div>
+                    <pre>
+                        <code class="javascript code-example">
+                            const starRating = document.querySelectorAll('.rating-star'); 
+
+                            starRating.forEach((star, index) => {
+    
+                                star.addEventListener('click', () => {
+                                    for(let i=0; i < 5; i++) {
+                                        starRating[i].classList.remove('bxs-star');
+                                    }
+
+                                    for(let i=0; i <= index; i++) {
+                                        starRating[i].classList.add('bxs-star');
+                                    }
+                                });
+                            });
+                        </code>
+                    </pre>
+                </div>
+
+
+            </div>            
+
+            <hr class="my-4 section-hr"></hr>
+
              <!-- Toast component -->
 
             <div>
@@ -1943,6 +2012,7 @@
         <div>&copy 2022 | Colorant UI | All Rights Reserved</div>
     </footer>
 
+    <script src="./JS/rating.js"></script>
     <script src="./JS/modal.js"></script>
     <script src="./JS/navbar.js"></script>
     <script src="./JS/aside.js"></script>
